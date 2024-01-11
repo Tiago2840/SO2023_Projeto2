@@ -1,0 +1,11 @@
+ 1  5 tsp_tests\ex5.txt  4      1,006   21          0     0,002    - 1 5 3 2 4 
+ 2  5 tsp_tests\ex5.txt  4      1,002   21          0     0,000720 - 2 4 1 5 3 
+ 3  5 tsp_tests\ex5.txt  4      1,006   21          0     0,000810 - 4 2 3 5 1 
+ 4  5 tsp_tests\ex5.txt  4      1,016   21          0     0,000650 - 3 2 4 1 5 
+ 5  5 tsp_tests\ex5.txt  4      1,047   21          0     0,018    - 5 1 4 2 3 
+ 6  5 tsp_tests\ex5.txt  4      1,038   21          0     0,024    - 3 2 4 1 5 
+ 7  5 tsp_tests\ex5.txt  4      1,040   21          0     0,001    - 3 2 4 1 5 
+ 8  5 tsp_tests\ex5.txt  4      1,001   21          0     0,000688 - 5 1 4 2 3 
+ 9  5 tsp_tests\ex5.txt  4      1,013   21          0     0,000342 - 2 4 1 5 3 
+10  5 tsp_tests\ex5.txt  4      1,016   21          0     0,000514 - 5 1 4 2 3
+Optimal found 10 times   Average = 21,0   Std Dev = 0,0 
