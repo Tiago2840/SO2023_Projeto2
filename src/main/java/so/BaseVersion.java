@@ -40,18 +40,23 @@ public class BaseVersion {
 
     public void runBaseVersion() {
         List<Thread> threads = new ArrayList<>();
+        System.out.println("1: " + threads);
 
         for (int i = 0; i < numberOfThreads; i++) {
             final int threadIndex = i;
+            System.out.println("2: " + threadIndex);
             Thread thread = new Thread(() -> runAlgorithm(threadIndex));
             thread.start();
             threads.add(thread);
+            System.out.println("3: " + thread.getName());
         }
 
         // Wait for all threads to finish
         for (Thread thread : threads) {
             try {
                 thread.join();
+                System.out.println();
+                System.out.println("4: " + thread.getName());
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

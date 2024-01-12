@@ -1,6 +1,5 @@
 package so;
 
-// TODO: Fix infinite execution
 public class Main {
     public static void main(String[] args) {
         String filepath = "ex5.txt";
