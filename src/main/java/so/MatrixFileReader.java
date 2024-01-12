@@ -3,7 +3,7 @@ package so;
 import java.io.*;
 
 public class MatrixFileReader {
-    private String fileName;
+    private final String fileName;
 
     public MatrixFileReader(String fileName) {
         this.fileName = fileName;

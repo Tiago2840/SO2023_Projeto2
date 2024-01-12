@@ -1,22 +1,18 @@
 package so;
 
-import java.io.IOException;
-import java.util.Arrays;
-
+// TODO: Fix infinite execution
 public class Main {
     public static void main(String[] args) {
-        String filepath = "ex4.txt";
-        MatrixFileReader fileReader = new MatrixFileReader(filepath);
-        System.out.println(fileReader.getFileName());
+        String filepath = "ex5.txt";
+        int numberOfThreads = 3;
+        long maxExecutionTime = 3;
+        int populationSize = 2;
+        double mutationProbability = 0.01;
 
-        try {
-            MatrixData matrixData = fileReader.readMatrixFromFile();
-            int citiesNumber = matrixData.getCitiesNumber();
-            int[][] distanceMatrix = matrixData.getDistanceMatrix();
-            System.out.printf("Number of cities: " + citiesNumber + "\nCities matrix: \n" + Arrays.deepToString(distanceMatrix));
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println("An error occurred while reading the file");
-        }
+        BaseVersion baseVersion = new BaseVersion(filepath, numberOfThreads, maxExecutionTime, populationSize, mutationProbability);
+        baseVersion.runBaseVersion();
+        Path bestPath = baseVersion.findBestPath();
+
+        System.out.println("Best Path: " + bestPath);
     }
 }
