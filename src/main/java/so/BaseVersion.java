@@ -1,89 +1,72 @@
 package so;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 public class BaseVersion {
-    private final int numberOfThreads;
-    private final long maxExecutionTime;
     private final int populationSize;
+    private final int maxTimeLimit;
     private final double mutationProbability;
-    private MatrixData matrixData;
-    List<AJAlgorithm> algorithms;
-    private Path bestPath;
+    private final int numThreads;
+    private final int[][] distanceMatrix;
 
-
-    public BaseVersion(String fileName, int numberOfThreads, long maxExecutionTime, int populationSize, double mutationProbability) {
-        this.numberOfThreads = numberOfThreads;
-        this.maxExecutionTime = maxExecutionTime;
+    public BaseVersion(int populationSize, int maxTimeLimit, double mutationProbability, int numThreads, int[][] distanceMatrix) {
         this.populationSize = populationSize;
+        this.maxTimeLimit = maxTimeLimit;
         this.mutationProbability = mutationProbability;
+        this.numThreads = numThreads;
+        this.distanceMatrix = distanceMatrix;
+    }
 
-        // Read the matrix data from the file
+    // Method to execute the algorithm
+    public void execute() {
+        // Record the start time of the execution
+        long startTime = System.nanoTime();
+
+        // Create an array of threads to run the algorithm concurrently
+        AJEPPThread[] threads = new AJEPPThread[numThreads];
+
+        // Initialize and execute the threads
+        for (int i = 0; i < numThreads; i++) {
+            threads[i] = new AJEPPThread(AJEPPThread.deepCopy(distanceMatrix), populationSize, maxTimeLimit, mutationProbability);
+            threads[i].start();
+        }
+
+        // Wait for all threads to finish before proceeding
         try {
-            MatrixFileReader fileReader = new MatrixFileReader(fileName);
-            this.matrixData = fileReader.readMatrixFromFile();
-        } catch (IOException | NumberFormatException e) {
+            for (AJEPPThread thread : threads) {
+                thread.join();
+            }
+        } catch (InterruptedException e) {
+            System.err.println("Thread interrupted: ");
             e.printStackTrace();
         }
 
-        initializeAlgorithms();
-    }
+        // Combine the results of the threads and choose the best global solution
+        int[] globalBestSolution = null;
+        int globalBestDistance = Integer.MAX_VALUE;
+        int totalIterations = 0;
+        long maxTimeUntilBestFound = 0;
 
-    private void initializeAlgorithms() {
-        algorithms = new ArrayList<>();
-        for (int i = 0; i < numberOfThreads; i++) {
-            algorithms.add(new AJAlgorithm(populationSize, matrixData.getCitiesNumber(), mutationProbability, matrixData));
-        }
-    }
-
-    public void runBaseVersion() {
-        List<Thread> threads = new ArrayList<>();
-        System.out.println("1: " + threads);
-
-        for (int i = 0; i < numberOfThreads; i++) {
-            final int threadIndex = i;
-            System.out.println("2: " + threadIndex);
-            Thread thread = new Thread(() -> runAlgorithm(threadIndex));
-            thread.start();
-            threads.add(thread);
-            System.out.println("3: " + thread.getName());
-        }
-
-        // Wait for all threads to finish
-        for (Thread thread : threads) {
-            try {
-                thread.join();
-                System.out.println();
-                System.out.println("4: " + thread.getName());
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+        // Iterate through threads to find the best solution and gather iteration/time information
+        for (AJEPPThread thread : threads) {
+            if (globalBestSolution == null || AJEPPThread.isBetterSolution(thread.getBestSolution(), globalBestSolution, distanceMatrix)) {
+                globalBestSolution = AJEPPThread.copy(thread.getBestSolution());
+                globalBestDistance = thread.getGlobalBestDistance();
             }
+
+            totalIterations += thread.getIterations();
+            maxTimeUntilBestFound = Math.max(maxTimeUntilBestFound, thread.getTimeUntilBestFound());
         }
 
-        // Evaluate the population and find the best path
-        for (AJAlgorithm algorithm : algorithms) {
-            algorithm.evaluatePopulation();
-        }
+        // Display the results
+        System.out.println("Best solution: " + Arrays.toString(globalBestSolution) + "\tDistance of the best solution: " + globalBestDistance + "\n");
 
-        // Find the best path among all algorithms
-        bestPath = findBestPath();
-        System.out.println("Central Best Path: " + bestPath);
-    }
-
-    private void runAlgorithm(int algorithmIndex) {
-        algorithms.get(algorithmIndex).runAlgorithm(maxExecutionTime);
-    }
-
-    public Path findBestPath() {
-        Path bestPath = algorithms.get(0).getBestPath();
-        for (int i = 1; i < numberOfThreads; i++) {
-            Path currentPath = algorithms.get(i).getBestPath();
-            if (currentPath.compareTo(bestPath) < 0) {
-                bestPath = currentPath;
-            }
-        }
-        return bestPath;
+        System.out.println("Total execution time: " + (System.nanoTime() - startTime) / 1000000 + "ms");
+        System.out.println("Threads used: " + numThreads);
+        System.out.println("Population size: " + populationSize);
+        System.out.println("Mutation probability: " + mutationProbability * 100 + "%");
+        // Accessing time and iteration information
+        System.out.println("Total iterations until best path found: " + totalIterations);
+        System.out.println("Max time until best path found: " + maxTimeUntilBestFound + "ms");
     }
 }

@@ -1,17 +1,32 @@
 package so;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        String filepath = "ex5.txt";
-        int numberOfThreads = 3;
-        long maxExecutionTime = 3;
-        int populationSize = 2;
-        double mutationProbability = 0.01;
+//        int populationSize = 50;
+//        int maxTimeLimit = 10;
+//        int numThreads = 10;
+//        int testNumber = 1;
+//        double mutationProbability = 0.01;
+//        double updatePercentage = 1;
+//        String fileName = "lau15.txt";
+//        int[][] distanceMatrix = FileReader.readDistancesFromFile("src/main/resources/" + fileName);
 
-        BaseVersion baseVersion = new BaseVersion(filepath, numberOfThreads, maxExecutionTime, populationSize, mutationProbability);
-        baseVersion.runBaseVersion();
-        Path bestPath = baseVersion.findBestPath();
+//        BaseVersion baseSolver = new BaseVersion(populationSize, maxTimeLimit, mutationProbability, numThreads, distanceMatrix);
+//        while (testNumber <= 3) {
+//            System.out.println("*************** TESTE " + testNumber + " - VERSÃO BASE - FICHEIRO (" + fileName + ") ***************");
+//            baseSolver.execute();
+//            testNumber++;
+//            System.out.println("\n");
+//        }
+//
+//        AdvancedVersion advancedSolver = new AdvancedVersion(populationSize, maxTimeLimit, mutationProbability, numThreads, distanceMatrix, updatePercentage);
+//        System.out.println("*************** TESTE 1" + " - VERSÃO AVANÇADA - FICHEIRO (" + fileName + ") ***************");
+//        advancedSolver.execute();
 
-        System.out.println("Best Path: " + bestPath);
+//        int seedForProblemGeneration = 9;
+//        int citiesNumber = 23;
+//        ProblemGenerator.generateProblem(seedForProblemGeneration, citiesNumber);
     }
 }
