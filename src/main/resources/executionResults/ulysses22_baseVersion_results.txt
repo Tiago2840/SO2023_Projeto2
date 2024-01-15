@@ -1,0 +1,27 @@
+*************** TESTE 1 - VERSÃO BASE - FICHEIRO (ulysses22.txt) ***************
+Best solution: [12, 13, 14, 1, 8, 18, 4, 22, 17, 2, 3, 16, 21, 20, 19, 10, 9, 11, 5, 15, 6, 7]
+Distance of the best solution: 7013
+
+Total execution time: 45002ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 8883535
+Max time until best path found: 22580ms
+Total number of iterations: 89687121
+
+
+*************** TESTE 2 - VERSÃO BASE - FICHEIRO (ulysses22.txt) ***************
+Best solution: [9, 11, 5, 15, 6, 7, 14, 13, 12, 16, 1, 8, 18, 4, 22, 17, 2, 3, 21, 20, 19, 10]
+Distance of the best solution: 7087
+
+Total execution time: 45001ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 8941361
+Max time until best path found: 34183ms
+Total number of iterations: 89069327
+
+
+*************** TESTE 3 - VERSÃO BASE - FICHEIRO (ulysses22.txt) ***************

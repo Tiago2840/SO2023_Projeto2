@@ -86,7 +86,7 @@ public class AdvancedVersion {
 
     // Method to display the final results as a formatted string
     private String displayResults(int[] bestSolution, int bestDistance, long currentTime, int totalIterations, long maxTimeUntilBestFound) {
-        return "Best solution: " + Arrays.toString(bestSolution) + "\tDistance of the best solution: " + bestDistance + "\n" +
+        return "Best solution: " + Arrays.toString(bestSolution) + "\nDistance of the best solution: " + bestDistance + "\n" +
                 "\nTotal execution time: " + (currentTime - startTime) / 1000000 + "ms" +
                 "\nThreads used: " + numThreads +
                 "\nPopulation size: " + populationSize +

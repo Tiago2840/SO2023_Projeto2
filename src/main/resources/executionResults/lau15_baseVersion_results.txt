@@ -1,0 +1,132 @@
+*************** TESTE 1 - VERSÃO BASE - FICHEIRO (lau15.txt) ***************
+Best solution: [13, 2, 15, 9, 5, 7, 3, 12, 14, 10, 8, 6, 4, 11, 1]
+Distance of the best solution: 291
+
+Total execution time: 7003ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1970225
+Max time until best path found: 4637ms
+Total number of iterations: 19420848
+
+
+*************** TESTE 2 - VERSÃO BASE - FICHEIRO (lau15.txt) ***************
+Best solution: [14, 12, 3, 7, 5, 9, 15, 2, 13, 1, 11, 4, 6, 8, 10]
+Distance of the best solution: 291
+
+Total execution time: 7001ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 2070361
+Max time until best path found: 5250ms
+Total number of iterations: 20479477
+
+
+*************** TESTE 3 - VERSÃO BASE - FICHEIRO (lau15.txt) ***************
+Best solution: [13, 1, 11, 4, 6, 8, 10, 14, 12, 3, 7, 5, 9, 15, 2]
+Distance of the best solution: 291
+
+Total execution time: 7001ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 2057107
+Max time until best path found: 4113ms
+Total number of iterations: 21018878
+
+
+*************** TESTE 4 - VERSÃO BASE - FICHEIRO (lau15.txt) ***************
+Best solution: [7, 5, 9, 15, 2, 13, 1, 11, 4, 6, 8, 10, 14, 12, 3]
+Distance of the best solution: 291
+
+Total execution time: 7000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 2074004
+Max time until best path found: 3386ms
+Total number of iterations: 21097440
+
+
+*************** TESTE 5 - VERSÃO BASE - FICHEIRO (lau15.txt) ***************
+Best solution: [4, 11, 1, 13, 2, 15, 9, 5, 7, 3, 12, 14, 10, 8, 6]
+Distance of the best solution: 291
+
+Total execution time: 7000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 2086851
+Max time until best path found: 1951ms
+Total number of iterations: 21251410
+
+
+*************** TESTE 6 - VERSÃO BASE - FICHEIRO (lau15.txt) ***************
+Best solution: [9, 5, 7, 3, 12, 14, 10, 8, 6, 4, 11, 1, 13, 2, 15]
+Distance of the best solution: 291
+
+Total execution time: 7000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 2080282
+Max time until best path found: 4703ms
+Total number of iterations: 21210202
+
+
+*************** TESTE 7 - VERSÃO BASE - FICHEIRO (lau15.txt) ***************
+Best solution: [10, 14, 12, 3, 7, 5, 9, 15, 2, 13, 1, 11, 4, 6, 8]
+Distance of the best solution: 291
+
+Total execution time: 7000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 2098352
+Max time until best path found: 1468ms
+Total number of iterations: 21266965
+
+
+*************** TESTE 8 - VERSÃO BASE - FICHEIRO (lau15.txt) ***************
+Best solution: [7, 3, 12, 14, 10, 8, 6, 4, 11, 1, 13, 2, 15, 9, 5]
+Distance of the best solution: 291
+
+Total execution time: 7000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 2080970
+Max time until best path found: 2205ms
+Total number of iterations: 21051112
+
+
+*************** TESTE 9 - VERSÃO BASE - FICHEIRO (lau15.txt) ***************
+Best solution: [11, 4, 6, 8, 10, 14, 12, 3, 7, 5, 9, 15, 2, 13, 1]
+Distance of the best solution: 291
+
+Total execution time: 7000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 2094535
+Max time until best path found: 5105ms
+Total number of iterations: 20784819
+
+
+*************** TESTE 10 - VERSÃO BASE - FICHEIRO (lau15.txt) ***************
+Best solution: [13, 1, 11, 4, 6, 8, 10, 14, 12, 3, 7, 5, 9, 15, 2]
+Distance of the best solution: 291
+
+Total execution time: 7012ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 2068256
+Max time until best path found: 5537ms
+Total number of iterations: 21122054
+
+
+Average execution time over 10 runs: 7001.7ms
+Average total iterations over 10 runs: 20870320.5

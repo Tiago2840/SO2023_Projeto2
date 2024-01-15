@@ -57,36 +57,6 @@ class AJEPPThread extends Thread {
         }
     }
 
-    // Getter method for iterations
-    public int getIterations() {
-        return iterations;
-    }
-
-    // Getter method for time until the best solution is found
-    public long getTimeUntilBestFound() {
-        return timeUntilBestFound / 1000000; // Convert nanoseconds to milliseconds
-    }
-
-    // Getter method for the best solution
-    public int[] getBestSolution() {
-        return bestSolution;
-    }
-
-    // Getter method for the population
-    public int[][] getPopulation() {
-        return population;
-    }
-
-    // Setter method for the population
-    public void setPopulation(int[][] newPopulation) {
-        this.population = newPopulation;
-    }
-
-    // Getter method for the global best distance
-    public int getGlobalBestDistance() {
-        return globalBestDistance;
-    }
-
     // Generates a random solution by shuffling the list of cities
     private int[] generateRandomSolution(int size) {
         ArrayList<Integer> citiesList = new ArrayList<>();
@@ -186,7 +156,7 @@ class AJEPPThread extends Thread {
         int distance1 = calculateTotalDistance(solution1, distances);
         int distance2 = calculateTotalDistance(solution2, distances);
 
-        // In TSP, a shorter distance is considered a better solution
+        // Shorter distance is the better solution
         return distance1 < distance2;
     }
 
@@ -207,5 +177,36 @@ class AJEPPThread extends Thread {
             copy[i] = Arrays.copyOf(original[i], original[i].length);
         }
         return copy;
+    }
+
+    // *** Getters & Setters *** \\
+    // Getter method for iterations
+    public int getIterations() {
+        return iterations;
+    }
+
+    // Getter method for time until the best solution is found
+    public long getTimeUntilBestFound() {
+        return timeUntilBestFound / 1000000; // Convert nanoseconds to milliseconds
+    }
+
+    // Getter method for the best solution
+    public int[] getBestSolution() {
+        return bestSolution;
+    }
+
+    // Getter method for the population
+    public int[][] getPopulation() {
+        return population;
+    }
+
+    // Getter method for the global best distance
+    public int getGlobalBestDistance() {
+        return globalBestDistance;
+    }
+
+    // Setter method for the population
+    public void setPopulation(int[][] newPopulation) {
+        this.population = newPopulation;
     }
 }
