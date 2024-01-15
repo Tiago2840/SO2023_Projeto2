@@ -1,0 +1,132 @@
+*************** TESTE 1 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
+Best solution: [14, 13, 9, 23, 4, 12, 24, 7, 3, 11, 16, 1, 6, 8, 21, 5, 10, 17, 18, 22, 19, 15, 2, 20]
+Distance of the best solution: 1318
+
+Total execution time: 150002ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 28833776
+Max time until best path found: 67426ms
+Total number of iterations: 287059475
+
+
+*************** TESTE 2 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
+Best solution: [6, 7, 3, 11, 16, 1, 12, 4, 23, 9, 13, 14, 20, 2, 15, 19, 18, 22, 17, 10, 5, 21, 8, 24]
+Distance of the best solution: 1272
+
+Total execution time: 150000ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 29842788
+Max time until best path found: 134101ms
+Total number of iterations: 296698067
+
+
+*************** TESTE 3 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
+Best solution: [3, 11, 16, 1, 12, 4, 23, 9, 13, 14, 20, 2, 15, 19, 22, 18, 17, 10, 5, 21, 8, 24, 6, 7]
+Distance of the best solution: 1272
+
+Total execution time: 150000ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 29346653
+Max time until best path found: 133991ms
+Total number of iterations: 294289237
+
+
+*************** TESTE 4 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
+Best solution: [5, 10, 17, 18, 22, 19, 15, 2, 20, 14, 13, 9, 23, 4, 12, 1, 16, 11, 3, 7, 6, 24, 8, 21]
+Distance of the best solution: 1272
+
+Total execution time: 150000ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 29661007
+Max time until best path found: 101152ms
+Total number of iterations: 294453139
+
+
+*************** TESTE 5 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
+Best solution: [6, 7, 3, 11, 16, 1, 12, 4, 23, 9, 13, 14, 20, 2, 15, 19, 22, 18, 17, 10, 5, 21, 8, 24]
+Distance of the best solution: 1272
+
+Total execution time: 150000ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 29030960
+Max time until best path found: 83204ms
+Total number of iterations: 294532367
+
+
+*************** TESTE 6 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
+Best solution: [10, 17, 18, 22, 19, 15, 2, 20, 14, 13, 9, 23, 4, 12, 1, 16, 6, 24, 8, 7, 3, 11, 21, 5]
+Distance of the best solution: 1289
+
+Total execution time: 150000ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 29555482
+Max time until best path found: 133532ms
+Total number of iterations: 293484880
+
+
+*************** TESTE 7 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
+Best solution: [23, 4, 12, 1, 16, 6, 24, 7, 11, 3, 8, 21, 5, 10, 17, 18, 22, 19, 15, 2, 20, 14, 13, 9]
+Distance of the best solution: 1290
+
+Total execution time: 150000ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 29652626
+Max time until best path found: 147228ms
+Total number of iterations: 294225748
+
+
+*************** TESTE 8 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
+Best solution: [24, 8, 21, 5, 10, 17, 22, 18, 19, 15, 2, 20, 14, 13, 9, 23, 4, 12, 1, 16, 11, 3, 7, 6]
+Distance of the best solution: 1272
+
+Total execution time: 150000ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 29158631
+Max time until best path found: 83843ms
+Total number of iterations: 294544358
+
+
+*************** TESTE 9 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
+Best solution: [22, 17, 10, 5, 24, 21, 8, 3, 11, 7, 6, 16, 1, 12, 4, 23, 9, 13, 14, 20, 2, 15, 19, 18]
+Distance of the best solution: 1294
+
+Total execution time: 150000ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 29157722
+Max time until best path found: 126504ms
+Total number of iterations: 294776101
+
+
+*************** TESTE 10 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
+Best solution: [18, 22, 19, 15, 2, 20, 14, 13, 9, 23, 4, 12, 24, 6, 1, 16, 11, 3, 7, 8, 21, 5, 10, 17]
+Distance of the best solution: 1298
+
+Total execution time: 150000ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 28620768
+Max time until best path found: 75063ms
+Total number of iterations: 294010835
+
+
+Average execution time over 10 runs: 150000.2ms
+Average total iterations over 10 runs: 293807420,70
