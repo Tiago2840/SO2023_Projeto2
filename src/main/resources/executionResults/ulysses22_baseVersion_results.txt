@@ -25,3 +25,108 @@ Total number of iterations: 89069327
 
 
 *************** TESTE 3 - VERSÃO BASE - FICHEIRO (ulysses22.txt) ***************
+Best solution: [1, 14, 13, 12, 7, 6, 15, 5, 11, 9, 10, 19, 20, 21, 16, 3, 2, 17, 22, 4, 18, 8]
+Distance of the best solution: 7013
+
+Total execution time: 45001ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 9068177
+Max time until best path found: 43363ms
+Total number of iterations: 90492066
+
+
+*************** TESTE 4 - VERSÃO BASE - FICHEIRO (ulysses22.txt) ***************
+Best solution: [8, 18, 4, 22, 17, 2, 3, 16, 21, 20, 19, 10, 9, 11, 5, 15, 6, 7, 12, 13, 14, 1]
+Distance of the best solution: 7013
+
+Total execution time: 45000ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 8954745
+Max time until best path found: 33368ms
+Total number of iterations: 89676946
+
+
+*************** TESTE 5 - VERSÃO BASE - FICHEIRO (ulysses22.txt) ***************
+Best solution: [1, 14, 13, 12, 7, 6, 15, 5, 11, 9, 10, 19, 20, 21, 16, 3, 2, 17, 22, 4, 18, 8]
+Distance of the best solution: 7013
+
+Total execution time: 45000ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 9163165
+Max time until best path found: 37653ms
+Total number of iterations: 91042712
+
+
+*************** TESTE 6 - VERSÃO BASE - FICHEIRO (ulysses22.txt) ***************
+Best solution: [1, 8, 18, 4, 22, 17, 2, 3, 16, 21, 20, 19, 10, 9, 11, 5, 15, 6, 7, 12, 13, 14]
+Distance of the best solution: 7013
+
+Total execution time: 45000ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 9409473
+Max time until best path found: 17702ms
+Total number of iterations: 93855243
+
+
+*************** TESTE 7 - VERSÃO BASE - FICHEIRO (ulysses22.txt) ***************
+Best solution: [15, 6, 7, 12, 14, 13, 16, 1, 8, 18, 4, 22, 17, 2, 3, 21, 20, 19, 10, 9, 11, 5]
+Distance of the best solution: 7083
+
+Total execution time: 45001ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 9392633
+Max time until best path found: 44544ms
+Total number of iterations: 93576544
+
+
+*************** TESTE 8 - VERSÃO BASE - FICHEIRO (ulysses22.txt) ***************
+Best solution: [1, 8, 18, 4, 22, 17, 2, 3, 16, 21, 20, 19, 10, 9, 11, 5, 15, 6, 7, 12, 13, 14]
+Distance of the best solution: 7013
+
+Total execution time: 45000ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 9213904
+Max time until best path found: 33975ms
+Total number of iterations: 92133260
+
+
+*************** TESTE 9 - VERSÃO BASE - FICHEIRO (ulysses22.txt) ***************
+Best solution: [4, 22, 17, 2, 3, 16, 21, 20, 19, 10, 9, 11, 5, 15, 6, 7, 12, 13, 14, 1, 8, 18]
+Distance of the best solution: 7013
+
+Total execution time: 45000ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 9488202
+Max time until best path found: 32425ms
+Total number of iterations: 93960018
+
+
+*************** TESTE 10 - VERSÃO BASE - FICHEIRO (ulysses22.txt) ***************
+Best solution: [2, 17, 22, 4, 18, 8, 1, 14, 13, 12, 7, 6, 15, 5, 11, 9, 10, 19, 20, 21, 16, 3]
+Distance of the best solution: 7013
+
+Total execution time: 45001ms
+Threads used: 10
+Population size: 100
+Mutation probability: 9.0%
+Iterations until best path found: 9404831
+Max time until best path found: 35514ms
+Total number of iterations: 93284277
+
+
+Average execution time over 10 runs: 45000.6ms
+Average total iterations over 10 runs: 91677751,40
