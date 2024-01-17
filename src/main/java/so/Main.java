@@ -30,15 +30,15 @@ public class Main {
 
 
         // *** Algorithm *** \\
-        int numThreads = 25;
-        int maxTimeLimit = 1800;
+        int numThreads = 10;
+        int maxTimeLimit = 450;
         int populationSize = 100;
-        double mutationProbability = 0.2;
-        double updatePercentage = 0.5;
+        double mutationProbability = 0.1;
+        double updatePercentage = 0.05;
 
         // *** Algorithms Tests *** \\
-        String fileName = "dantzig42.txt";      // Test filename
-        String testToExecute = "b";         // AdvancedVersion = a   BaseVersion = b     GenerateProblem = g
+        String fileName = "ulysses22.txt";      // Test filename
+        String testToExecute = "a";         // AdvancedVersion = a   BaseVersion = b     GenerateProblem = g
         boolean customFile = false;         // If file is contained in customProblems folder change to true else false
         int totalTestNumber = 10;           // Number of times the test will be executed
         int testNumber;
@@ -54,6 +54,7 @@ public class Main {
         boolean exportResultsToFile = true;     // True -> Export to file | False -> Print in console
         String outputFileName = "src/main/resources/executionResults/" + fileName.replace(".txt", "")
                 + (testToExecute.equalsIgnoreCase("b") ? "_baseVersion" : "_advancedVersion") + "_results.txt";
+
 
 
         // Lists to store results for each run
@@ -98,11 +99,11 @@ public class Main {
                     }
 
                     // Calculate averages
-                    double averageExecutionTime = calculateAverageExecutionTime(executionTimes);
-                    double averageTotalIterations = calculateAverage(totalIterationsList);
-                    System.out.println("Average execution time over " + totalTestNumber + " runs: " + averageExecutionTime + "ms");
+                    double averageExecutionTimeB = calculateAverageExecutionTime(executionTimes);
+                    double averageTotalIterationsB = calculateAverage(totalIterationsList);
+                    System.out.println("Average execution time over " + totalTestNumber + " runs: " + averageExecutionTimeB + "ms");
                     System.out.println("Average total iterations over " + totalTestNumber + " runs: "
-                            + String.format("%.2f", averageTotalIterations));
+                            + String.format("%.2f", averageTotalIterationsB));
                     break;
 
                 case ("a"):
@@ -111,9 +112,21 @@ public class Main {
                     while (testNumber <= totalTestNumber) {
                         System.out.println("*************** TESTE " + testNumber + " - VERSÃO AVANÇADA - FICHEIRO (" + fileName + ") ***************");
                         advancedSolver.execute();
+
+                        // Store results for each run
+                        executionTimes.add(advancedSolver.getTotalExecutionTime());
+                        totalIterationsList.add(advancedSolver.getTotalIterations());
+
                         testNumber++;
                         System.out.println("\n");
                     }
+
+                    // Calculate averages
+                    double averageExecutionTimeA = calculateAverageExecutionTime(executionTimes);
+                    double averageTotalIterationsA = calculateAverage(totalIterationsList);
+                    System.out.println("Average execution time over " + totalTestNumber + " runs: " + averageExecutionTimeA + "ms");
+                    System.out.println("Average total iterations over " + totalTestNumber + " runs: "
+                            + String.format("%.2f", averageTotalIterationsA));
                     break;
 
                 case ("g"):

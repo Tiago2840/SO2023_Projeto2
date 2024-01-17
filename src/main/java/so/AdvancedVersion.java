@@ -10,8 +10,10 @@ public class AdvancedVersion {
     private final int[][] distanceMatrix;
     private final double updatePercentage;
     long startTime;
+    long totalExecutionTime = 0;
+    int totalIterations = 0;
 
-    // Constructor to initialize the parameters
+
     public AdvancedVersion(int populationSize, int maxTimeLimit, double mutationProbability, int numThreads, int[][] distanceMatrix, double updatePercentage) {
         this.populationSize = populationSize;
         this.maxTimeLimit = maxTimeLimit;
@@ -46,7 +48,7 @@ public class AdvancedVersion {
         // Combine the results of the threads and choose the best global solution
         int[] globalBestSolution = null;
         int globalBestDistance = Integer.MAX_VALUE;
-        int totalIterations = 0;
+        int iterationsUntilBestFound = 0;
         long maxTimeUntilBestFound = 0;
 
         // Iterate through threads to find the best solution and gather iteration/time information
@@ -54,6 +56,7 @@ public class AdvancedVersion {
             if (globalBestSolution == null || AJEPPThread.isBetterSolution(thread.getBestSolution(), globalBestSolution, distanceMatrix)) {
                 globalBestSolution = AJEPPThread.copy(thread.getBestSolution());
                 globalBestDistance = thread.getGlobalBestDistance();
+                iterationsUntilBestFound = thread.getIterations();
             }
 
             totalIterations += thread.getIterations();
@@ -80,19 +83,21 @@ public class AdvancedVersion {
             }
         }
 
+        totalExecutionTime = (System.nanoTime() - startTime) / 1000000;
         // Display the final results
-        System.out.println(displayResults(globalBestSolution, globalBestDistance, System.nanoTime(), totalIterations, maxTimeUntilBestFound));
+        System.out.println(displayResults(globalBestSolution, globalBestDistance, iterationsUntilBestFound, System.nanoTime(), maxTimeUntilBestFound));
     }
 
     // Method to display the final results as a formatted string
-    private String displayResults(int[] bestSolution, int bestDistance, long currentTime, int totalIterations, long maxTimeUntilBestFound) {
+    private String displayResults(int[] bestSolution, int bestDistance, int iterationsUntilBestFound, long currentTime, long maxTimeUntilBestFound) {
         return "Best solution: " + Arrays.toString(bestSolution) + "\nDistance of the best solution: " + bestDistance + "\n" +
                 "\nTotal execution time: " + (currentTime - startTime) / 1000000 + "ms" +
                 "\nThreads used: " + numThreads +
                 "\nPopulation size: " + populationSize +
                 "\nMutation probability: " + mutationProbability * 100 + "%" +
-                "\nTotal iterations until best path found: " + totalIterations +
-                "\nMax time until best path found: " + maxTimeUntilBestFound + "ms";
+                "\nIterations until best path found: " + iterationsUntilBestFound +
+                "\nMax time until best path found: " + maxTimeUntilBestFound + "ms" +
+                "\nTotal number of iterations: " + totalIterations;
     }
 
     // Method to combine populations from all threads into a single population
@@ -133,5 +138,13 @@ public class AdvancedVersion {
         for (AJEPPThread thread : threads) {
             thread.setPopulation(AJEPPThread.deepCopy(newPopulation));
         }
+    }
+
+    public long getTotalExecutionTime() {
+        return totalExecutionTime;
+    }
+
+    public int getTotalIterations() {
+        return totalIterations;
     }
 }
