@@ -1,0 +1,132 @@
+*************** TESTE 1 - VERSÃO AVANÇADA - FICHEIRO (burma14.txt) ***************
+Best solution: [9, 10, 1, 2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11]
+Distance of the best solution: 3323
+
+Total execution time: 5002ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1573383
+Max time until best path found: 2145ms
+Total number of iterations: 15488104
+
+
+*************** TESTE 2 - VERSÃO AVANÇADA - FICHEIRO (burma14.txt) ***************
+Best solution: [3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 14]
+Distance of the best solution: 3323
+
+Total execution time: 5000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1610281
+Max time until best path found: 2441ms
+Total number of iterations: 32011690
+
+
+*************** TESTE 3 - VERSÃO AVANÇADA - FICHEIRO (burma14.txt) ***************
+Best solution: [1, 10, 9, 11, 8, 13, 7, 12, 6, 5, 4, 3, 14, 2]
+Distance of the best solution: 3323
+
+Total execution time: 5000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1623663
+Max time until best path found: 1945ms
+Total number of iterations: 48346149
+
+
+*************** TESTE 4 - VERSÃO AVANÇADA - FICHEIRO (burma14.txt) ***************
+Best solution: [1, 10, 9, 11, 8, 13, 7, 12, 6, 5, 4, 3, 14, 2]
+Distance of the best solution: 3323
+
+Total execution time: 5000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1593504
+Max time until best path found: 2171ms
+Total number of iterations: 64613536
+
+
+*************** TESTE 5 - VERSÃO AVANÇADA - FICHEIRO (burma14.txt) ***************
+Best solution: [4, 3, 14, 2, 1, 10, 9, 11, 8, 13, 7, 12, 6, 5]
+Distance of the best solution: 3323
+
+Total execution time: 5000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1604846
+Max time until best path found: 3012ms
+Total number of iterations: 81115915
+
+
+*************** TESTE 6 - VERSÃO AVANÇADA - FICHEIRO (burma14.txt) ***************
+Best solution: [14, 2, 1, 10, 9, 11, 8, 13, 7, 12, 6, 5, 4, 3]
+Distance of the best solution: 3323
+
+Total execution time: 5000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1597421
+Max time until best path found: 1766ms
+Total number of iterations: 97166504
+
+
+*************** TESTE 7 - VERSÃO AVANÇADA - FICHEIRO (burma14.txt) ***************
+Best solution: [8, 11, 9, 10, 1, 2, 14, 3, 4, 5, 6, 12, 7, 13]
+Distance of the best solution: 3323
+
+Total execution time: 5001ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1641861
+Max time until best path found: 1704ms
+Total number of iterations: 113522212
+
+
+*************** TESTE 8 - VERSÃO AVANÇADA - FICHEIRO (burma14.txt) ***************
+Best solution: [14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2]
+Distance of the best solution: 3323
+
+Total execution time: 5000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1573166
+Max time until best path found: 2377ms
+Total number of iterations: 129824740
+
+
+*************** TESTE 9 - VERSÃO AVANÇADA - FICHEIRO (burma14.txt) ***************
+Best solution: [14, 2, 1, 10, 9, 11, 8, 13, 7, 12, 6, 5, 4, 3]
+Distance of the best solution: 3323
+
+Total execution time: 5000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1629570
+Max time until best path found: 2509ms
+Total number of iterations: 146043223
+
+
+*************** TESTE 10 - VERSÃO AVANÇADA - FICHEIRO (burma14.txt) ***************
+Best solution: [11, 8, 13, 7, 12, 6, 5, 4, 3, 14, 2, 1, 10, 9]
+Distance of the best solution: 3323
+
+Total execution time: 5000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1579375
+Max time until best path found: 3972ms
+Total number of iterations: 161921194
+
+
+Average execution time over 10 runs: 5000.3ms
+Average total iterations over 10 runs: 89005326,70

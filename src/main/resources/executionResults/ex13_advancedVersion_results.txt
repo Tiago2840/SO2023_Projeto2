@@ -1,0 +1,132 @@
+*************** TESTE 1 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [13, 7, 12, 6, 5, 4, 3, 2, 1, 10, 9, 11, 8]
+Distance of the best solution: 3158
+
+Total execution time: 3002ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 949283
+Max time until best path found: 1957ms
+Total number of iterations: 9728837
+
+
+*************** TESTE 2 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [2, 1, 10, 9, 11, 8, 13, 7, 12, 6, 5, 4, 3]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1097253
+Max time until best path found: 2567ms
+Total number of iterations: 20942533
+
+
+*************** TESTE 3 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [12, 6, 5, 4, 3, 2, 1, 10, 9, 11, 8, 13, 7]
+Distance of the best solution: 3158
+
+Total execution time: 3001ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1120050
+Max time until best path found: 1679ms
+Total number of iterations: 32351972
+
+
+*************** TESTE 4 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [13, 7, 12, 6, 5, 4, 3, 2, 1, 10, 9, 11, 8]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1113330
+Max time until best path found: 728ms
+Total number of iterations: 43764799
+
+
+*************** TESTE 5 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [7, 13, 8, 11, 9, 10, 1, 2, 3, 4, 5, 6, 12]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1125000
+Max time until best path found: 1757ms
+Total number of iterations: 55165401
+
+
+*************** TESTE 6 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [13, 8, 11, 9, 10, 1, 2, 3, 4, 5, 6, 12, 7]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1104357
+Max time until best path found: 681ms
+Total number of iterations: 66585832
+
+
+*************** TESTE 7 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [12, 6, 5, 4, 3, 2, 1, 10, 9, 11, 8, 13, 7]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1101205
+Max time until best path found: 1605ms
+Total number of iterations: 77982310
+
+
+*************** TESTE 8 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [8, 11, 9, 10, 1, 2, 3, 4, 5, 6, 12, 7, 13]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1082149
+Max time until best path found: 2906ms
+Total number of iterations: 89411495
+
+
+*************** TESTE 9 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [3, 2, 1, 10, 9, 11, 8, 13, 7, 12, 6, 5, 4]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1127382
+Max time until best path found: 2020ms
+Total number of iterations: 100824702
+
+
+*************** TESTE 10 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [4, 3, 2, 1, 10, 9, 11, 8, 13, 7, 12, 6, 5]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 1131677
+Max time until best path found: 1094ms
+Total number of iterations: 112259789
+
+
+Average execution time over 10 runs: 3000.3ms
+Average total iterations over 10 runs: 60901767,00

@@ -31,14 +31,14 @@ public class Main {
 
         // *** Algorithm *** \\
         int numThreads = 10;
-        int maxTimeLimit = 450;
-        int populationSize = 100;
-        double mutationProbability = 0.1;
+        int maxTimeLimit = 2;
+        int populationSize = 50;
+        double mutationProbability = 0.01;
         double updatePercentage = 0.05;
 
         // *** Algorithms Tests *** \\
-        String fileName = "ulysses22.txt";      // Test filename
-        String testToExecute = "a";         // AdvancedVersion = a   BaseVersion = b     GenerateProblem = g
+        String fileName = "uk12.txt";      // Test filename
+        String testToExecute = "a";         // AdvancedVersion = a  BaseVersion = b OriginalVersion = o GenerateProblem = g
         boolean customFile = false;         // If file is contained in customProblems folder change to true else false
         int totalTestNumber = 10;           // Number of times the test will be executed
         int testNumber;
@@ -54,7 +54,6 @@ public class Main {
         boolean exportResultsToFile = true;     // True -> Export to file | False -> Print in console
         String outputFileName = "src/main/resources/executionResults/" + fileName.replace(".txt", "")
                 + (testToExecute.equalsIgnoreCase("b") ? "_baseVersion" : "_advancedVersion") + "_results.txt";
-
 
 
         // Lists to store results for each run

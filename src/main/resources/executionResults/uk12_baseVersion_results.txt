@@ -1,0 +1,132 @@
+*************** TESTE 1 - VERSÃO BASE - FICHEIRO (uk12.txt) ***************
+Best solution: [6, 8, 12, 4, 2, 9, 7, 11, 5, 3, 10, 1]
+Distance of the best solution: 1733
+
+Total execution time: 2003ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 668786
+Max time until best path found: 907ms
+Total number of iterations: 6935237
+
+
+*************** TESTE 2 - VERSÃO BASE - FICHEIRO (uk12.txt) ***************
+Best solution: [10, 1, 6, 8, 12, 4, 2, 9, 7, 11, 5, 3]
+Distance of the best solution: 1733
+
+Total execution time: 2000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 769572
+Max time until best path found: 1298ms
+Total number of iterations: 7717274
+
+
+*************** TESTE 3 - VERSÃO BASE - FICHEIRO (uk12.txt) ***************
+Best solution: [11, 5, 3, 10, 1, 6, 8, 12, 4, 2, 9, 7]
+Distance of the best solution: 1733
+
+Total execution time: 2001ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 778728
+Max time until best path found: 841ms
+Total number of iterations: 7938218
+
+
+*************** TESTE 4 - VERSÃO BASE - FICHEIRO (uk12.txt) ***************
+Best solution: [1, 6, 8, 12, 4, 2, 9, 7, 11, 5, 3, 10]
+Distance of the best solution: 1733
+
+Total execution time: 2000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 767117
+Max time until best path found: 1956ms
+Total number of iterations: 7845992
+
+
+*************** TESTE 5 - VERSÃO BASE - FICHEIRO (uk12.txt) ***************
+Best solution: [9, 2, 4, 12, 8, 6, 1, 10, 3, 5, 11, 7]
+Distance of the best solution: 1733
+
+Total execution time: 2001ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 752966
+Max time until best path found: 1765ms
+Total number of iterations: 7732579
+
+
+*************** TESTE 6 - VERSÃO BASE - FICHEIRO (uk12.txt) ***************
+Best solution: [1, 10, 3, 5, 11, 7, 9, 2, 4, 12, 8, 6]
+Distance of the best solution: 1733
+
+Total execution time: 2005ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 753528
+Max time until best path found: 1768ms
+Total number of iterations: 7703777
+
+
+*************** TESTE 7 - VERSÃO BASE - FICHEIRO (uk12.txt) ***************
+Best solution: [12, 4, 2, 9, 7, 11, 5, 3, 10, 1, 6, 8]
+Distance of the best solution: 1733
+
+Total execution time: 2026ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 750482
+Max time until best path found: 1223ms
+Total number of iterations: 7884401
+
+
+*************** TESTE 8 - VERSÃO BASE - FICHEIRO (uk12.txt) ***************
+Best solution: [2, 9, 7, 11, 5, 3, 10, 1, 6, 8, 12, 4]
+Distance of the best solution: 1733
+
+Total execution time: 2000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 787596
+Max time until best path found: 1944ms
+Total number of iterations: 7908870
+
+
+*************** TESTE 9 - VERSÃO BASE - FICHEIRO (uk12.txt) ***************
+Best solution: [4, 12, 8, 6, 1, 10, 3, 5, 11, 7, 9, 2]
+Distance of the best solution: 1733
+
+Total execution time: 2000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 781379
+Max time until best path found: 1045ms
+Total number of iterations: 8033488
+
+
+*************** TESTE 10 - VERSÃO BASE - FICHEIRO (uk12.txt) ***************
+Best solution: [1, 10, 3, 5, 11, 7, 9, 2, 4, 12, 8, 6]
+Distance of the best solution: 1733
+
+Total execution time: 2000ms
+Threads used: 10
+Population size: 50
+Mutation probability: 1.0%
+Iterations until best path found: 760646
+Max time until best path found: 1172ms
+Total number of iterations: 7695331
+
+
+Average execution time over 10 runs: 2003.6ms
+Average total iterations over 10 runs: 7739516,70
