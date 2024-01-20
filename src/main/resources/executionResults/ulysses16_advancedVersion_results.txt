@@ -1,0 +1,134 @@
+*************** TESTE 1 - VERSÃO AVANÇADA - FICHEIRO (ulysses16.txt) ***************
+Best solution: [13, 14, 1, 8, 4, 2, 3, 16, 10, 9, 11, 5, 15, 6, 7, 12]
+Distance of the best solution: 6859
+
+Total execution time: 7004ms
+Threads used: 10
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 484851
+Max time until best path found: 6483ms
+Total number of iterations: 5068504
+
+
+*************** TESTE 2 - VERSÃO AVANÇADA - FICHEIRO (ulysses16.txt) ***************
+Best solution: [14, 13, 12, 7, 6, 15, 5, 11, 9, 10, 16, 3, 2, 4, 8, 1]
+Distance of the best solution: 6859
+
+Total execution time: 7040ms
+Threads used: 10
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 631251
+Max time until best path found: 2011ms
+Total number of iterations: 10350818
+
+
+*************** TESTE 3 - VERSÃO AVANÇADA - FICHEIRO (ulysses16.txt) ***************
+Best solution: [8, 4, 2, 3, 16, 10, 9, 11, 5, 15, 6, 7, 12, 13, 14, 1]
+Distance of the best solution: 6859
+
+Total execution time: 7033ms
+Threads used: 10
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 543071
+Max time until best path found: 6616ms
+Total number of iterations: 15500977
+
+
+*************** TESTE 4 - VERSÃO AVANÇADA - FICHEIRO (ulysses16.txt) ***************
+Best solution: [10, 9, 11, 5, 15, 6, 7, 12, 13, 14, 1, 8, 4, 2, 3, 16]
+Distance of the best solution: 6859
+
+Total execution time: 7077ms
+Threads used: 10
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 541146
+Max time until best path found: 6699ms
+Total number of iterations: 20900557
+
+
+*************** TESTE 5 - VERSÃO AVANÇADA - FICHEIRO (ulysses16.txt) ***************
+Best solution: [8, 4, 2, 3, 16, 10, 9, 11, 5, 15, 6, 7, 12, 13, 14, 1]
+Distance of the best solution: 6859
+
+Total execution time: 7073ms
+Threads used: 10
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 594951
+Max time until best path found: 4910ms
+Total number of iterations: 26425561
+
+
+*************** TESTE 6 - VERSÃO AVANÇADA - FICHEIRO (ulysses16.txt) ***************
+Best solution: [13, 12, 7, 6, 15, 5, 11, 9, 10, 16, 3, 2, 4, 8, 1, 14]
+Distance of the best solution: 6859
+
+Total execution time: 7038ms
+Threads used: 10
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 561777
+Max time until best path found: 5387ms
+Total number of iterations: 31911738
+
+
+*************** TESTE 7 - VERSÃO AVANÇADA - FICHEIRO (ulysses16.txt) ***************
+Best solution: [12, 13, 14, 1, 8, 4, 2, 3, 16, 10, 9, 11, 5, 15, 6, 7]
+Distance of the best solution: 6859
+
+Total execution time: 7109ms
+Threads used: 10
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 613658
+Max time until best path found: 3200ms
+Total number of iterations: 37410670
+
+
+*************** TESTE 8 - VERSÃO AVANÇADA - FICHEIRO (ulysses16.txt) ***************
+Best solution: [14, 13, 12, 7, 6, 15, 5, 11, 9, 10, 16, 3, 2, 4, 8, 1]
+Distance of the best solution: 6859
+
+Total execution time: 7072ms
+Threads used: 10
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 605361
+Max time until best path found: 6274ms
+Total number of iterations: 42889986
+
+
+*************** TESTE 9 - VERSÃO AVANÇADA - FICHEIRO (ulysses16.txt) ***************
+Best solution: [4, 2, 3, 16, 10, 9, 11, 5, 15, 6, 7, 12, 13, 14, 1, 8]
+Distance of the best solution: 6859
+
+Total execution time: 7034ms
+Threads used: 10
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 595948
+Max time until best path found: 5943ms
+Total number of iterations: 48341744
+
+
+*************** TESTE 10 - VERSÃO AVANÇADA - FICHEIRO (ulysses16.txt) ***************
+Best solution: [5, 15, 6, 7, 12, 13, 14, 1, 8, 4, 2, 3, 16, 10, 9, 11]
+Distance of the best solution: 6859
+
+Total execution time: 7032ms
+Threads used: 10
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 444458
+Max time until best path found: 6013ms
+Total number of iterations: 53821097
+
+
+Average execution time over 10 runs: 7051.2ms
+Average total iterations over 10 runs: 29262165,20
+Total best path found: 10/10
+

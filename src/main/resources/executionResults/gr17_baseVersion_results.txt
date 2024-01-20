@@ -1,0 +1,134 @@
+*************** TESTE 1 - VERSÃO BASE - FICHEIRO (gr17.txt) ***************
+Best solution: [6, 8, 7, 13, 4, 1, 16, 12, 9, 5, 2, 10, 11, 3, 15, 14, 17]
+Distance of the best solution: 2085
+
+Total execution time: 7052ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 177012
+Max time until best path found: 6239ms
+Total number of iterations: 4585865
+
+
+*************** TESTE 2 - VERSÃO BASE - FICHEIRO (gr17.txt) ***************
+Best solution: [3, 11, 10, 2, 5, 9, 12, 16, 1, 4, 13, 7, 8, 6, 17, 14, 15]
+Distance of the best solution: 2085
+
+Total execution time: 7493ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 213743
+Max time until best path found: 6528ms
+Total number of iterations: 5005893
+
+
+*************** TESTE 3 - VERSÃO BASE - FICHEIRO (gr17.txt) ***************
+Best solution: [8, 6, 17, 14, 15, 3, 11, 10, 2, 5, 9, 12, 16, 1, 4, 13, 7]
+Distance of the best solution: 2085
+
+Total execution time: 7123ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 205947
+Max time until best path found: 6955ms
+Total number of iterations: 4556193
+
+
+*************** TESTE 4 - VERSÃO BASE - FICHEIRO (gr17.txt) ***************
+Best solution: [7, 13, 4, 1, 16, 12, 9, 5, 2, 10, 11, 3, 15, 14, 17, 6, 8]
+Distance of the best solution: 2085
+
+Total execution time: 7556ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 224750
+Max time until best path found: 6962ms
+Total number of iterations: 4844640
+
+
+*************** TESTE 5 - VERSÃO BASE - FICHEIRO (gr17.txt) ***************
+Best solution: [6, 17, 14, 15, 3, 11, 10, 2, 5, 9, 12, 16, 1, 4, 13, 7, 8]
+Distance of the best solution: 2085
+
+Total execution time: 7479ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 169720
+Max time until best path found: 6979ms
+Total number of iterations: 4838222
+
+
+*************** TESTE 6 - VERSÃO BASE - FICHEIRO (gr17.txt) ***************
+Best solution: [1, 16, 12, 9, 5, 2, 10, 11, 3, 15, 14, 17, 6, 8, 7, 13, 4]
+Distance of the best solution: 2085
+
+Total execution time: 7482ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 149243
+Max time until best path found: 6976ms
+Total number of iterations: 4672382
+
+
+*************** TESTE 7 - VERSÃO BASE - FICHEIRO (gr17.txt) ***************
+Best solution: [5, 9, 12, 16, 1, 4, 13, 7, 8, 6, 17, 14, 15, 3, 11, 10, 2]
+Distance of the best solution: 2085
+
+Total execution time: 7693ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 164408
+Max time until best path found: 6914ms
+Total number of iterations: 4839934
+
+
+*************** TESTE 8 - VERSÃO BASE - FICHEIRO (gr17.txt) ***************
+Best solution: [8, 7, 13, 4, 1, 16, 12, 9, 5, 2, 10, 11, 3, 15, 14, 17, 6]
+Distance of the best solution: 2085
+
+Total execution time: 7626ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 208851
+Max time until best path found: 6754ms
+Total number of iterations: 4790073
+
+
+*************** TESTE 9 - VERSÃO BASE - FICHEIRO (gr17.txt) ***************
+Best solution: [4, 1, 16, 12, 9, 5, 2, 10, 11, 3, 15, 14, 17, 6, 8, 7, 13]
+Distance of the best solution: 2085
+
+Total execution time: 7713ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 213472
+Max time until best path found: 6807ms
+Total number of iterations: 4770196
+
+
+*************** TESTE 10 - VERSÃO BASE - FICHEIRO (gr17.txt) ***************
+Best solution: [5, 2, 10, 11, 3, 15, 14, 17, 6, 8, 7, 13, 4, 1, 16, 12, 9]
+Distance of the best solution: 2085
+
+Total execution time: 7586ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 241608
+Max time until best path found: 6975ms
+Total number of iterations: 4799213
+
+
+Average execution time over 10 runs: 7480.3ms
+Average total iterations over 10 runs: 4770261,10
+Total best path found: 10/10
+

@@ -1,0 +1,134 @@
+*************** TESTE 1 - VERSÃO AVANÇADA - FICHEIRO (uk12.txt) ***************
+Best solution: [12, 4, 2, 9, 7, 11, 5, 3, 10, 1, 6, 8]
+Distance of the best solution: 1733
+
+Total execution time: 2004ms
+Threads used: 10
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 115830
+Max time until best path found: 1212ms
+Total number of iterations: 1997708
+
+
+*************** TESTE 2 - VERSÃO AVANÇADA - FICHEIRO (uk12.txt) ***************
+Best solution: [12, 8, 6, 1, 10, 3, 5, 11, 7, 9, 2, 4]
+Distance of the best solution: 1733
+
+Total execution time: 2117ms
+Threads used: 10
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 216380
+Max time until best path found: 1991ms
+Total number of iterations: 4184555
+
+
+*************** TESTE 3 - VERSÃO AVANÇADA - FICHEIRO (uk12.txt) ***************
+Best solution: [9, 7, 11, 5, 3, 10, 1, 6, 8, 12, 4, 2]
+Distance of the best solution: 1733
+
+Total execution time: 2074ms
+Threads used: 10
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 123662
+Max time until best path found: 1951ms
+Total number of iterations: 6210901
+
+
+*************** TESTE 4 - VERSÃO AVANÇADA - FICHEIRO (uk12.txt) ***************
+Best solution: [4, 2, 9, 7, 11, 5, 3, 10, 1, 6, 8, 12]
+Distance of the best solution: 1733
+
+Total execution time: 2066ms
+Threads used: 10
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 203900
+Max time until best path found: 1928ms
+Total number of iterations: 8184498
+
+
+*************** TESTE 5 - VERSÃO AVANÇADA - FICHEIRO (uk12.txt) ***************
+Best solution: [11, 7, 9, 2, 4, 12, 8, 6, 1, 10, 3, 5]
+Distance of the best solution: 1733
+
+Total execution time: 2042ms
+Threads used: 10
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 165329
+Max time until best path found: 1039ms
+Total number of iterations: 10171349
+
+
+*************** TESTE 6 - VERSÃO AVANÇADA - FICHEIRO (uk12.txt) ***************
+Best solution: [2, 4, 12, 8, 6, 1, 10, 3, 5, 11, 7, 9]
+Distance of the best solution: 1733
+
+Total execution time: 2100ms
+Threads used: 10
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 187962
+Max time until best path found: 1919ms
+Total number of iterations: 12345783
+
+
+*************** TESTE 7 - VERSÃO AVANÇADA - FICHEIRO (uk12.txt) ***************
+Best solution: [11, 7, 9, 2, 4, 12, 8, 6, 1, 10, 3, 5]
+Distance of the best solution: 1733
+
+Total execution time: 2149ms
+Threads used: 10
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 187013
+Max time until best path found: 1808ms
+Total number of iterations: 14620546
+
+
+*************** TESTE 8 - VERSÃO AVANÇADA - FICHEIRO (uk12.txt) ***************
+Best solution: [2, 4, 12, 8, 6, 1, 10, 3, 5, 11, 7, 9]
+Distance of the best solution: 1733
+
+Total execution time: 2104ms
+Threads used: 10
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 203088
+Max time until best path found: 1982ms
+Total number of iterations: 16791588
+
+
+*************** TESTE 9 - VERSÃO AVANÇADA - FICHEIRO (uk12.txt) ***************
+Best solution: [10, 3, 5, 11, 7, 9, 2, 4, 12, 8, 6, 1]
+Distance of the best solution: 1733
+
+Total execution time: 2034ms
+Threads used: 10
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 214253
+Max time until best path found: 1992ms
+Total number of iterations: 18815627
+
+
+*************** TESTE 10 - VERSÃO AVANÇADA - FICHEIRO (uk12.txt) ***************
+Best solution: [7, 11, 5, 3, 10, 1, 6, 8, 12, 4, 2, 9]
+Distance of the best solution: 1733
+
+Total execution time: 2069ms
+Threads used: 10
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 186269
+Max time until best path found: 1965ms
+Total number of iterations: 20904564
+
+
+Average execution time over 10 runs: 2075.9ms
+Average total iterations over 10 runs: 11422711,90
+Total best path found: 10/10
+
