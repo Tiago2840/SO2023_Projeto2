@@ -28,15 +28,15 @@ public class Main {
 
 
         // *** Algorithm *** \\
-        int numThreads = 25;
-        int maxTimeLimit = 180;
+        int numThreads = 15;
+        int maxTimeLimit = 15;
         int populationSize = 100;
-        double mutationProbability = 0.2;
+        double mutationProbability = 0.3;
         double updatePercentage = 0.05;
 
         // *** Algorithms Tests *** \\
-        String fileName = "dantzig42.txt";      // Test filename
-        String testToExecute = "b";         // AdvancedVersion = a  BaseVersion = b originalVersion = o GenerateProblem = g
+        String fileName = "ulysses22.txt";      // Test filename
+        String testToExecute = "o";         // AdvancedVersion = a  BaseVersion = b originalVersion = o GenerateProblem = g
         boolean customFile = false;         // If file is contained in customProblems folder change to true else false
         int totalTestNumber = 10;           // Number of times the test will be executed
         int testNumber;

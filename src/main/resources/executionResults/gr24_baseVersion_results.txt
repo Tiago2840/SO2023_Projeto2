@@ -1,134 +1,134 @@
 *************** TESTE 1 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
-Best solution: [14, 13, 9, 23, 4, 12, 24, 7, 3, 11, 16, 1, 6, 8, 21, 5, 10, 17, 18, 22, 19, 15, 2, 20]
-Distance of the best solution: 1318
+Best solution: [20, 14, 13, 9, 23, 4, 12, 7, 3, 11, 16, 1, 6, 8, 24, 5, 21, 10, 17, 22, 18, 19, 15, 2]
+Distance of the best solution: 1342
 
-Total execution time: 150002ms
-Threads used: 10
+Total execution time: 15047ms
+Threads used: 25
 Population size: 100
-Mutation probability: 9.0%
-Iterations until best path found: 28833776
-Max time until best path found: 67426ms
-Total number of iterations: 287059475
+Mutation probability: 10.0%
+Iterations until best path found: 240122
+Max time until best path found: 14991ms
+Total number of iterations: 6976010
 
 
 *************** TESTE 2 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
-Best solution: [6, 7, 3, 11, 16, 1, 12, 4, 23, 9, 13, 14, 20, 2, 15, 19, 18, 22, 17, 10, 5, 21, 8, 24]
-Distance of the best solution: 1272
+Best solution: [19, 15, 2, 20, 14, 13, 9, 23, 4, 12, 1, 16, 6, 7, 11, 3, 8, 24, 21, 5, 10, 17, 18, 22]
+Distance of the best solution: 1297
 
-Total execution time: 150000ms
-Threads used: 10
+Total execution time: 15761ms
+Threads used: 25
 Population size: 100
-Mutation probability: 9.0%
-Iterations until best path found: 29842788
-Max time until best path found: 134101ms
-Total number of iterations: 296698067
+Mutation probability: 10.0%
+Iterations until best path found: 441918
+Max time until best path found: 14929ms
+Total number of iterations: 8257669
 
 
 *************** TESTE 3 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
-Best solution: [3, 11, 16, 1, 12, 4, 23, 9, 13, 14, 20, 2, 15, 19, 22, 18, 17, 10, 5, 21, 8, 24, 6, 7]
-Distance of the best solution: 1272
+Best solution: [10, 17, 18, 22, 19, 15, 2, 20, 14, 13, 9, 23, 4, 12, 1, 16, 6, 7, 3, 11, 8, 21, 24, 5]
+Distance of the best solution: 1294
 
-Total execution time: 150000ms
-Threads used: 10
+Total execution time: 15492ms
+Threads used: 25
 Population size: 100
-Mutation probability: 9.0%
-Iterations until best path found: 29346653
-Max time until best path found: 133991ms
-Total number of iterations: 294289237
+Mutation probability: 10.0%
+Iterations until best path found: 449843
+Max time until best path found: 14991ms
+Total number of iterations: 8034089
 
 
 *************** TESTE 4 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
-Best solution: [5, 10, 17, 18, 22, 19, 15, 2, 20, 14, 13, 9, 23, 4, 12, 1, 16, 11, 3, 7, 6, 24, 8, 21]
-Distance of the best solution: 1272
+Best solution: [5, 10, 17, 18, 22, 19, 15, 2, 20, 14, 9, 13, 23, 4, 12, 1, 16, 11, 3, 7, 6, 24, 8, 21]
+Distance of the best solution: 1304
 
-Total execution time: 150000ms
-Threads used: 10
+Total execution time: 15587ms
+Threads used: 25
 Population size: 100
-Mutation probability: 9.0%
-Iterations until best path found: 29661007
-Max time until best path found: 101152ms
-Total number of iterations: 294453139
+Mutation probability: 10.0%
+Iterations until best path found: 448875
+Max time until best path found: 14999ms
+Total number of iterations: 7914568
 
 
 *************** TESTE 5 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
-Best solution: [6, 7, 3, 11, 16, 1, 12, 4, 23, 9, 13, 14, 20, 2, 15, 19, 22, 18, 17, 10, 5, 21, 8, 24]
-Distance of the best solution: 1272
+Best solution: [10, 17, 18, 22, 19, 15, 2, 20, 14, 13, 9, 23, 12, 4, 1, 16, 6, 24, 7, 3, 11, 8, 21, 5]
+Distance of the best solution: 1313
 
-Total execution time: 150000ms
-Threads used: 10
+Total execution time: 15217ms
+Threads used: 25
 Population size: 100
-Mutation probability: 9.0%
-Iterations until best path found: 29030960
-Max time until best path found: 83204ms
-Total number of iterations: 294532367
+Mutation probability: 10.0%
+Iterations until best path found: 401226
+Max time until best path found: 14986ms
+Total number of iterations: 7756864
 
 
 *************** TESTE 6 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
-Best solution: [10, 17, 18, 22, 19, 15, 2, 20, 14, 13, 9, 23, 4, 12, 1, 16, 6, 24, 8, 7, 3, 11, 21, 5]
-Distance of the best solution: 1289
+Best solution: [21, 5, 10, 14, 13, 9, 23, 20, 2, 15, 19, 17, 22, 18, 3, 11, 7, 6, 16, 1, 4, 12, 24, 8]
+Distance of the best solution: 1375
 
-Total execution time: 150000ms
-Threads used: 10
+Total execution time: 15192ms
+Threads used: 25
 Population size: 100
-Mutation probability: 9.0%
-Iterations until best path found: 29555482
-Max time until best path found: 133532ms
-Total number of iterations: 293484880
+Mutation probability: 10.0%
+Iterations until best path found: 385293
+Max time until best path found: 14933ms
+Total number of iterations: 7707900
 
 
 *************** TESTE 7 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
-Best solution: [23, 4, 12, 1, 16, 6, 24, 7, 11, 3, 8, 21, 5, 10, 17, 18, 22, 19, 15, 2, 20, 14, 13, 9]
-Distance of the best solution: 1290
+Best solution: [9, 23, 4, 12, 1, 16, 6, 24, 21, 22, 18, 3, 11, 7, 8, 5, 10, 17, 19, 15, 2, 20, 14, 13]
+Distance of the best solution: 1352
 
-Total execution time: 150000ms
-Threads used: 10
+Total execution time: 15206ms
+Threads used: 25
 Population size: 100
-Mutation probability: 9.0%
-Iterations until best path found: 29652626
-Max time until best path found: 147228ms
-Total number of iterations: 294225748
+Mutation probability: 10.0%
+Iterations until best path found: 312098
+Max time until best path found: 14849ms
+Total number of iterations: 6295530
 
 
 *************** TESTE 8 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
-Best solution: [24, 8, 21, 5, 10, 17, 22, 18, 19, 15, 2, 20, 14, 13, 9, 23, 4, 12, 1, 16, 11, 3, 7, 6]
-Distance of the best solution: 1272
+Best solution: [18, 22, 17, 19, 15, 2, 20, 14, 10, 21, 24, 5, 23, 13, 9, 4, 12, 1, 16, 6, 8, 7, 11, 3]
+Distance of the best solution: 1413
 
-Total execution time: 150000ms
-Threads used: 10
+Total execution time: 15208ms
+Threads used: 25
 Population size: 100
-Mutation probability: 9.0%
-Iterations until best path found: 29158631
-Max time until best path found: 83843ms
-Total number of iterations: 294544358
+Mutation probability: 10.0%
+Iterations until best path found: 217150
+Max time until best path found: 14994ms
+Total number of iterations: 5205382
 
 
 *************** TESTE 9 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
-Best solution: [22, 17, 10, 5, 24, 21, 8, 3, 11, 7, 6, 16, 1, 12, 4, 23, 9, 13, 14, 20, 2, 15, 19, 18]
-Distance of the best solution: 1294
+Best solution: [2, 15, 19, 18, 22, 17, 10, 8, 21, 5, 24, 6, 11, 3, 7, 16, 1, 12, 4, 23, 9, 13, 14, 20]
+Distance of the best solution: 1362
 
-Total execution time: 150000ms
-Threads used: 10
+Total execution time: 15921ms
+Threads used: 25
 Population size: 100
-Mutation probability: 9.0%
-Iterations until best path found: 29157722
-Max time until best path found: 126504ms
-Total number of iterations: 294776101
+Mutation probability: 10.0%
+Iterations until best path found: 212022
+Max time until best path found: 14989ms
+Total number of iterations: 5232718
 
 
 *************** TESTE 10 - VERSÃO BASE - FICHEIRO (gr24.txt) ***************
-Best solution: [18, 22, 19, 15, 2, 20, 14, 13, 9, 23, 4, 12, 24, 6, 1, 16, 11, 3, 7, 8, 21, 5, 10, 17]
-Distance of the best solution: 1298
+Best solution: [14, 23, 9, 13, 20, 2, 15, 19, 18, 22, 17, 3, 11, 16, 1, 4, 12, 6, 24, 7, 8, 21, 5, 10]
+Distance of the best solution: 1349
 
-Total execution time: 150000ms
-Threads used: 10
+Total execution time: 15707ms
+Threads used: 25
 Population size: 100
-Mutation probability: 9.0%
-Iterations until best path found: 28620768
-Max time until best path found: 75063ms
-Total number of iterations: 294010835
+Mutation probability: 10.0%
+Iterations until best path found: 205029
+Max time until best path found: 14919ms
+Total number of iterations: 5283623
 
 
-Average execution time over 10 runs: 150000.2ms
-Average total iterations over 10 runs: 293807420,70
-Total best path found: 5/10
+Average execution time over 10 runs: 15433.8ms
+Average total iterations over 10 runs: 6866435,30
+Total best path found: 0/10
 

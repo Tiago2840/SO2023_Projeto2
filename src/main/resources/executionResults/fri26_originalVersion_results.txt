@@ -1,0 +1,134 @@
+*************** TESTE 1 - VERSÃO ORIGINAL - FICHEIRO (fri26.txt) ***************
+Best solution: [19, 20, 18, 17, 21, 22, 26, 23, 24, 25, 12, 13, 11, 10, 14, 15, 1, 2, 3, 4, 6, 5, 7, 8, 9, 16]
+Distance of the best solution: 953
+
+Total execution time: 60001ms
+Threads used: 25
+Population size: 100
+Mutation probability: 90.0%
+Iterations until best path found: 46910
+Max time until best path found: 395ms
+Total number of iterations: 1171901
+
+
+*************** TESTE 2 - VERSÃO ORIGINAL - FICHEIRO (fri26.txt) ***************
+Best solution: [19, 20, 18, 17, 21, 22, 26, 23, 24, 25, 12, 13, 11, 10, 14, 15, 1, 2, 3, 4, 6, 5, 7, 8, 9, 16]
+Distance of the best solution: 953
+
+Total execution time: 60001ms
+Threads used: 25
+Population size: 100
+Mutation probability: 90.0%
+Iterations until best path found: 47751
+Max time until best path found: 395ms
+Total number of iterations: 2364988
+
+
+*************** TESTE 3 - VERSÃO ORIGINAL - FICHEIRO (fri26.txt) ***************
+Best solution: [19, 20, 18, 17, 21, 22, 26, 23, 24, 25, 12, 13, 11, 10, 14, 15, 1, 2, 3, 4, 6, 5, 7, 8, 9, 16]
+Distance of the best solution: 953
+
+Total execution time: 60000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 90.0%
+Iterations until best path found: 56292
+Max time until best path found: 395ms
+Total number of iterations: 3771245
+
+
+*************** TESTE 4 - VERSÃO ORIGINAL - FICHEIRO (fri26.txt) ***************
+Best solution: [19, 20, 18, 17, 21, 22, 26, 23, 24, 25, 12, 13, 11, 10, 14, 15, 1, 2, 3, 4, 6, 5, 7, 8, 9, 16]
+Distance of the best solution: 953
+
+Total execution time: 60000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 90.0%
+Iterations until best path found: 48840
+Max time until best path found: 395ms
+Total number of iterations: 4991500
+
+
+*************** TESTE 5 - VERSÃO ORIGINAL - FICHEIRO (fri26.txt) ***************
+Best solution: [19, 20, 18, 17, 21, 22, 26, 23, 24, 25, 12, 13, 11, 10, 14, 15, 1, 2, 3, 4, 6, 5, 7, 8, 9, 16]
+Distance of the best solution: 953
+
+Total execution time: 60000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 90.0%
+Iterations until best path found: 55282
+Max time until best path found: 395ms
+Total number of iterations: 6372484
+
+
+*************** TESTE 6 - VERSÃO ORIGINAL - FICHEIRO (fri26.txt) ***************
+Best solution: [19, 20, 18, 17, 21, 22, 26, 23, 24, 25, 12, 13, 11, 10, 14, 15, 1, 2, 3, 4, 6, 5, 7, 8, 9, 16]
+Distance of the best solution: 953
+
+Total execution time: 60000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 90.0%
+Iterations until best path found: 47603
+Max time until best path found: 395ms
+Total number of iterations: 7561810
+
+
+*************** TESTE 7 - VERSÃO ORIGINAL - FICHEIRO (fri26.txt) ***************
+Best solution: [19, 20, 18, 17, 21, 22, 26, 23, 24, 25, 12, 13, 11, 10, 14, 15, 1, 2, 3, 4, 6, 5, 7, 8, 9, 16]
+Distance of the best solution: 953
+
+Total execution time: 60000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 90.0%
+Iterations until best path found: 57503
+Max time until best path found: 395ms
+Total number of iterations: 8998357
+
+
+*************** TESTE 8 - VERSÃO ORIGINAL - FICHEIRO (fri26.txt) ***************
+Best solution: [19, 20, 18, 17, 21, 22, 26, 23, 24, 25, 12, 13, 11, 10, 14, 15, 1, 2, 3, 4, 6, 5, 7, 8, 9, 16]
+Distance of the best solution: 953
+
+Total execution time: 60000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 90.0%
+Iterations until best path found: 46431
+Max time until best path found: 395ms
+Total number of iterations: 10158458
+
+
+*************** TESTE 9 - VERSÃO ORIGINAL - FICHEIRO (fri26.txt) ***************
+Best solution: [7, 8, 9, 10, 14, 15, 13, 12, 11, 16, 19, 20, 18, 17, 21, 22, 26, 23, 24, 25, 1, 2, 3, 4, 6, 5]
+Distance of the best solution: 937
+
+Total execution time: 60000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 90.0%
+Iterations until best path found: 46361
+Max time until best path found: 114ms
+Total number of iterations: 11316669
+
+
+*************** TESTE 10 - VERSÃO ORIGINAL - FICHEIRO (fri26.txt) ***************
+Best solution: [7, 8, 9, 10, 14, 15, 13, 12, 11, 16, 19, 20, 18, 17, 21, 22, 26, 23, 24, 25, 1, 2, 3, 4, 6, 5]
+Distance of the best solution: 937
+
+Total execution time: 60001ms
+Threads used: 25
+Population size: 100
+Mutation probability: 90.0%
+Iterations until best path found: 46975
+Max time until best path found: 114ms
+Total number of iterations: 12490367
+
+
+Average execution time over 10 runs: 60000.3ms
+Average total iterations over 10 runs: 6919777,90
+Total best path found: 2/10
+

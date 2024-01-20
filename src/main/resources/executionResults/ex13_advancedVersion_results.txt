@@ -1,134 +1,134 @@
 *************** TESTE 1 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
-Best solution: [13, 7, 12, 6, 5, 4, 3, 2, 1, 10, 9, 11, 8]
+Best solution: [11, 9, 10, 1, 2, 3, 4, 5, 6, 12, 7, 13, 8]
 Distance of the best solution: 3158
 
-Total execution time: 3002ms
-Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 949283
-Max time until best path found: 1957ms
-Total number of iterations: 9728837
+Total execution time: 3126ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 87592
+Max time until best path found: 1732ms
+Total number of iterations: 2375484
 
 
 *************** TESTE 2 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
-Best solution: [2, 1, 10, 9, 11, 8, 13, 7, 12, 6, 5, 4, 3]
-Distance of the best solution: 3158
-
-Total execution time: 3000ms
-Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1097253
-Max time until best path found: 2567ms
-Total number of iterations: 20942533
-
-
-*************** TESTE 3 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
-Best solution: [12, 6, 5, 4, 3, 2, 1, 10, 9, 11, 8, 13, 7]
-Distance of the best solution: 3158
-
-Total execution time: 3001ms
-Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1120050
-Max time until best path found: 1679ms
-Total number of iterations: 32351972
-
-
-*************** TESTE 4 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
-Best solution: [13, 7, 12, 6, 5, 4, 3, 2, 1, 10, 9, 11, 8]
-Distance of the best solution: 3158
-
-Total execution time: 3000ms
-Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1113330
-Max time until best path found: 728ms
-Total number of iterations: 43764799
-
-
-*************** TESTE 5 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
 Best solution: [7, 13, 8, 11, 9, 10, 1, 2, 3, 4, 5, 6, 12]
 Distance of the best solution: 3158
 
-Total execution time: 3000ms
-Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1125000
-Max time until best path found: 1757ms
-Total number of iterations: 55165401
+Total execution time: 3213ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 99787
+Max time until best path found: 2984ms
+Total number of iterations: 5352118
 
 
-*************** TESTE 6 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
-Best solution: [13, 8, 11, 9, 10, 1, 2, 3, 4, 5, 6, 12, 7]
+*************** TESTE 3 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [7, 12, 6, 5, 4, 3, 2, 1, 10, 9, 11, 8, 13]
 Distance of the best solution: 3158
 
-Total execution time: 3000ms
-Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1104357
-Max time until best path found: 681ms
-Total number of iterations: 66585832
+Total execution time: 3284ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 74732
+Max time until best path found: 2412ms
+Total number of iterations: 7995329
 
 
-*************** TESTE 7 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
-Best solution: [12, 6, 5, 4, 3, 2, 1, 10, 9, 11, 8, 13, 7]
-Distance of the best solution: 3158
-
-Total execution time: 3000ms
-Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1101205
-Max time until best path found: 1605ms
-Total number of iterations: 77982310
-
-
-*************** TESTE 8 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+*************** TESTE 4 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
 Best solution: [8, 11, 9, 10, 1, 2, 3, 4, 5, 6, 12, 7, 13]
 Distance of the best solution: 3158
 
-Total execution time: 3000ms
-Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1082149
-Max time until best path found: 2906ms
-Total number of iterations: 89411495
+Total execution time: 3777ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 106251
+Max time until best path found: 2959ms
+Total number of iterations: 10860601
+
+
+*************** TESTE 5 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [7, 12, 6, 5, 4, 3, 2, 1, 10, 9, 11, 8, 13]
+Distance of the best solution: 3158
+
+Total execution time: 3218ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 107061
+Max time until best path found: 2344ms
+Total number of iterations: 13423583
+
+
+*************** TESTE 6 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [7, 12, 6, 5, 4, 3, 2, 1, 10, 9, 11, 8, 13]
+Distance of the best solution: 3158
+
+Total execution time: 3698ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 175440
+Max time until best path found: 2786ms
+Total number of iterations: 16622053
+
+
+*************** TESTE 7 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [1, 2, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10]
+Distance of the best solution: 3158
+
+Total execution time: 3602ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 77274
+Max time until best path found: 2990ms
+Total number of iterations: 19860179
+
+
+*************** TESTE 8 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
+Best solution: [8, 13, 7, 12, 6, 5, 4, 3, 2, 1, 10, 9, 11]
+Distance of the best solution: 3158
+
+Total execution time: 3368ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 138627
+Max time until best path found: 2875ms
+Total number of iterations: 22587860
 
 
 *************** TESTE 9 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
-Best solution: [3, 2, 1, 10, 9, 11, 8, 13, 7, 12, 6, 5, 4]
+Best solution: [9, 11, 8, 13, 7, 12, 6, 5, 4, 3, 2, 1, 10]
 Distance of the best solution: 3158
 
-Total execution time: 3000ms
-Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1127382
-Max time until best path found: 2020ms
-Total number of iterations: 100824702
+Total execution time: 3628ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 113497
+Max time until best path found: 2910ms
+Total number of iterations: 25952078
 
 
 *************** TESTE 10 - VERSÃO AVANÇADA - FICHEIRO (ex13.txt) ***************
-Best solution: [4, 3, 2, 1, 10, 9, 11, 8, 13, 7, 12, 6, 5]
+Best solution: [12, 6, 5, 4, 3, 2, 1, 10, 9, 11, 8, 13, 7]
 Distance of the best solution: 3158
 
-Total execution time: 3000ms
-Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1131677
-Max time until best path found: 1094ms
-Total number of iterations: 112259789
+Total execution time: 3428ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 99142
+Max time until best path found: 2481ms
+Total number of iterations: 28748087
 
 
-Average execution time over 10 runs: 3000.3ms
-Average total iterations over 10 runs: 60901767,00
+Average execution time over 10 runs: 3434.2ms
+Average total iterations over 10 runs: 15377737,20
 Total best path found: 10/10
 

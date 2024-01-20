@@ -1,0 +1,134 @@
+*************** TESTE 1 - VERSÃO ORIGINAL - FICHEIRO (ex13.txt) ***************
+Best solution: [5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 3, 4]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 5060
+Max time until best path found: 34ms
+Total number of iterations: 126434
+
+
+*************** TESTE 2 - VERSÃO ORIGINAL - FICHEIRO (ex13.txt) ***************
+Best solution: [5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 3, 4]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 5899
+Max time until best path found: 34ms
+Total number of iterations: 273853
+
+
+*************** TESTE 3 - VERSÃO ORIGINAL - FICHEIRO (ex13.txt) ***************
+Best solution: [5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 3, 4]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 5960
+Max time until best path found: 34ms
+Total number of iterations: 422788
+
+
+*************** TESTE 4 - VERSÃO ORIGINAL - FICHEIRO (ex13.txt) ***************
+Best solution: [5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 3, 4]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 5903
+Max time until best path found: 34ms
+Total number of iterations: 570295
+
+
+*************** TESTE 5 - VERSÃO ORIGINAL - FICHEIRO (ex13.txt) ***************
+Best solution: [5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 3, 4]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 5741
+Max time until best path found: 34ms
+Total number of iterations: 713724
+
+
+*************** TESTE 6 - VERSÃO ORIGINAL - FICHEIRO (ex13.txt) ***************
+Best solution: [5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 3, 4]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 5833
+Max time until best path found: 34ms
+Total number of iterations: 859479
+
+
+*************** TESTE 7 - VERSÃO ORIGINAL - FICHEIRO (ex13.txt) ***************
+Best solution: [5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 3, 4]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 5898
+Max time until best path found: 34ms
+Total number of iterations: 1006871
+
+
+*************** TESTE 8 - VERSÃO ORIGINAL - FICHEIRO (ex13.txt) ***************
+Best solution: [5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 3, 4]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 5860
+Max time until best path found: 34ms
+Total number of iterations: 1153309
+
+
+*************** TESTE 9 - VERSÃO ORIGINAL - FICHEIRO (ex13.txt) ***************
+Best solution: [5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 3, 4]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 5899
+Max time until best path found: 34ms
+Total number of iterations: 1300704
+
+
+*************** TESTE 10 - VERSÃO ORIGINAL - FICHEIRO (ex13.txt) ***************
+Best solution: [5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 3, 4]
+Distance of the best solution: 3158
+
+Total execution time: 3000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 5095
+Max time until best path found: 34ms
+Total number of iterations: 1427990
+
+
+Average execution time over 10 runs: 3000.0ms
+Average total iterations over 10 runs: 785544,70
+Total best path found: 10/10
+

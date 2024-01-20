@@ -1,134 +1,134 @@
 *************** TESTE 1 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
-Best solution: [4, 6, 8, 10, 14, 12, 3, 7, 5, 9, 15, 2, 13, 1, 11]
+Best solution: [14, 12, 3, 7, 5, 9, 15, 2, 13, 1, 11, 4, 6, 8, 10]
 Distance of the best solution: 291
 
-Total execution time: 7079ms
-Threads used: 10
-Population size: 50
+Total execution time: 7002ms
+Threads used: 5
+Population size: 100
 Mutation probability: 10.0%
-Iterations until best path found: 2081102
-Max time until best path found: 1666ms
-Total number of iterations: 20661174
+Iterations until best path found: 1417091
+Max time until best path found: 268ms
+Total number of iterations: 7087483
 
 
 *************** TESTE 2 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
-Best solution: [8, 6, 4, 11, 1, 13, 2, 15, 9, 5, 7, 3, 12, 14, 10]
+Best solution: [8, 10, 14, 12, 3, 7, 5, 9, 15, 2, 13, 1, 11, 4, 6]
 Distance of the best solution: 291
 
-Total execution time: 7000ms
-Threads used: 10
-Population size: 50
+Total execution time: 7001ms
+Threads used: 5
+Population size: 100
 Mutation probability: 10.0%
-Iterations until best path found: 2098788
-Max time until best path found: 2236ms
-Total number of iterations: 41656376
+Iterations until best path found: 1401412
+Max time until best path found: 416ms
+Total number of iterations: 14163438
 
 
 *************** TESTE 3 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
-Best solution: [7, 5, 9, 15, 2, 13, 1, 11, 4, 6, 8, 10, 14, 12, 3]
+Best solution: [12, 3, 7, 5, 9, 15, 2, 13, 1, 11, 4, 6, 8, 10, 14]
 Distance of the best solution: 291
 
-Total execution time: 7000ms
-Threads used: 10
-Population size: 50
+Total execution time: 7001ms
+Threads used: 5
+Population size: 100
 Mutation probability: 10.0%
-Iterations until best path found: 2051517
-Max time until best path found: 1689ms
-Total number of iterations: 62615714
+Iterations until best path found: 1357129
+Max time until best path found: 1061ms
+Total number of iterations: 21225481
 
 
 *************** TESTE 4 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
-Best solution: [2, 13, 1, 11, 4, 6, 8, 10, 14, 12, 3, 7, 5, 9, 15]
-Distance of the best solution: 291
-
-Total execution time: 7000ms
-Threads used: 10
-Population size: 50
-Mutation probability: 10.0%
-Iterations until best path found: 2031187
-Max time until best path found: 547ms
-Total number of iterations: 83439943
-
-
-*************** TESTE 5 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
-Best solution: [15, 2, 13, 1, 11, 4, 6, 8, 10, 14, 12, 3, 7, 5, 9]
-Distance of the best solution: 291
-
-Total execution time: 7001ms
-Threads used: 10
-Population size: 50
-Mutation probability: 10.0%
-Iterations until best path found: 2051589
-Max time until best path found: 2736ms
-Total number of iterations: 104557966
-
-
-*************** TESTE 6 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
-Best solution: [13, 1, 11, 4, 6, 8, 10, 14, 12, 3, 7, 5, 9, 15, 2]
-Distance of the best solution: 291
-
-Total execution time: 7001ms
-Threads used: 10
-Population size: 50
-Mutation probability: 10.0%
-Iterations until best path found: 2075796
-Max time until best path found: 2789ms
-Total number of iterations: 125776665
-
-
-*************** TESTE 7 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
-Best solution: [7, 5, 9, 15, 2, 13, 1, 11, 4, 6, 8, 10, 14, 12, 3]
-Distance of the best solution: 291
-
-Total execution time: 7000ms
-Threads used: 10
-Population size: 50
-Mutation probability: 10.0%
-Iterations until best path found: 2062125
-Max time until best path found: 2298ms
-Total number of iterations: 146799611
-
-
-*************** TESTE 8 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
-Best solution: [4, 11, 1, 13, 2, 15, 9, 5, 7, 3, 12, 14, 10, 8, 6]
-Distance of the best solution: 291
-
-Total execution time: 7000ms
-Threads used: 10
-Population size: 50
-Mutation probability: 10.0%
-Iterations until best path found: 2016566
-Max time until best path found: 1556ms
-Total number of iterations: 167338118
-
-
-*************** TESTE 9 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
-Best solution: [4, 6, 8, 10, 14, 12, 3, 7, 5, 9, 15, 2, 13, 1, 11]
-Distance of the best solution: 291
-
-Total execution time: 7001ms
-Threads used: 10
-Population size: 50
-Mutation probability: 10.0%
-Iterations until best path found: 2077391
-Max time until best path found: 777ms
-Total number of iterations: 188654709
-
-
-*************** TESTE 10 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
 Best solution: [8, 6, 4, 11, 1, 13, 2, 15, 9, 5, 7, 3, 12, 14, 10]
 Distance of the best solution: 291
 
-Total execution time: 7000ms
-Threads used: 10
-Population size: 50
+Total execution time: 7001ms
+Threads used: 5
+Population size: 100
 Mutation probability: 10.0%
-Iterations until best path found: 2092679
-Max time until best path found: 596ms
-Total number of iterations: 210021121
+Iterations until best path found: 1290432
+Max time until best path found: 2301ms
+Total number of iterations: 27945252
 
 
-Average execution time over 10 runs: 7008.2ms
-Average total iterations over 10 runs: 115152139,70
+*************** TESTE 5 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
+Best solution: [4, 6, 8, 10, 14, 12, 3, 7, 5, 9, 15, 2, 13, 1, 11]
+Distance of the best solution: 291
+
+Total execution time: 7000ms
+Threads used: 5
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1368583
+Max time until best path found: 632ms
+Total number of iterations: 34743965
+
+
+*************** TESTE 6 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
+Best solution: [5, 7, 3, 12, 14, 10, 8, 6, 4, 11, 1, 13, 2, 15, 9]
+Distance of the best solution: 291
+
+Total execution time: 7000ms
+Threads used: 5
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1294710
+Max time until best path found: 2102ms
+Total number of iterations: 41296648
+
+
+*************** TESTE 7 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
+Best solution: [9, 5, 7, 3, 12, 14, 10, 8, 6, 4, 11, 1, 13, 2, 15]
+Distance of the best solution: 291
+
+Total execution time: 7000ms
+Threads used: 5
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1263692
+Max time until best path found: 340ms
+Total number of iterations: 47584640
+
+
+*************** TESTE 8 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
+Best solution: [11, 4, 6, 8, 10, 14, 12, 3, 7, 5, 9, 15, 2, 13, 1]
+Distance of the best solution: 291
+
+Total execution time: 7000ms
+Threads used: 5
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1356898
+Max time until best path found: 2842ms
+Total number of iterations: 54091479
+
+
+*************** TESTE 9 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
+Best solution: [13, 2, 15, 9, 5, 7, 3, 12, 14, 10, 8, 6, 4, 11, 1]
+Distance of the best solution: 291
+
+Total execution time: 7000ms
+Threads used: 5
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1198132
+Max time until best path found: 1643ms
+Total number of iterations: 60246249
+
+
+*************** TESTE 10 - VERSÃO AVANÇADA - FICHEIRO (lau15.txt) ***************
+Best solution: [15, 2, 13, 1, 11, 4, 6, 8, 10, 14, 12, 3, 7, 5, 9]
+Distance of the best solution: 291
+
+Total execution time: 7000ms
+Threads used: 5
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1158063
+Max time until best path found: 1078ms
+Total number of iterations: 66204575
+
+
+Average execution time over 10 runs: 7000.5ms
+Average total iterations over 10 runs: 37458921,00
 Total best path found: 10/10
 
