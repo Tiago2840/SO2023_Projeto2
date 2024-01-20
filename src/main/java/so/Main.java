@@ -50,8 +50,26 @@ public class Main {
 
         // *** Results File Generation *** \\
         boolean exportResultsToFile = true;     // True -> Export to file | False -> Print in console
+
+        String testTypeSuffix;
+        switch (testToExecute.toLowerCase()) {
+            case "b":
+                testTypeSuffix = "_baseVersion";
+                break;
+            case "a":
+                testTypeSuffix = "_advancedVersion";
+                break;
+            case "o":
+                testTypeSuffix = "_originalVersion";
+                break;
+            default:
+                testTypeSuffix = "_unknownVersion";
+                break;
+        }
+
         String outputFileName = "src/main/resources/executionResults/" + fileName.replace(".txt", "")
-                + (testToExecute.equalsIgnoreCase("b") ? "_baseVersion" : "_advancedVersion") + "_results.txt";
+                + testTypeSuffix + "_results.txt";
+
 
         // Lists to store results for each run
         List<Long> executionTimes = new ArrayList<>();

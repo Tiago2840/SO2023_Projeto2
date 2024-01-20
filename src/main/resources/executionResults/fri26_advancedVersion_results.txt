@@ -116,5 +116,7 @@ Population size: 100
 Mutation probability: 9.0%
 Total iterations until best path found: 878218140
 Max time until best path found: 491739ms
+Total best path found: 4/10
+
 
 

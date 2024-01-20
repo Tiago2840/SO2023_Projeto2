@@ -130,3 +130,5 @@ Total number of iterations: 21122054
 
 Average execution time over 10 runs: 7001.7ms
 Average total iterations over 10 runs: 20870320.5
+Total best path found: 10/10
+

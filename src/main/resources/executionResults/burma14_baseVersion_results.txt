@@ -1,132 +1,133 @@
 *************** TESTE 1 - VERSÃO BASE - FICHEIRO (burma14.txt) ***************
-Best solution: [5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 14, 3, 4]
+Best solution: [13, 7, 12, 6, 5, 4, 3, 14, 2, 1, 10, 9, 11, 8]
 Distance of the best solution: 3323
 
-Total execution time: 5002ms
+Total execution time: 5003ms
 Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1593080
-Max time until best path found: 2658ms
-Total number of iterations: 15738591
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1446025
+Max time until best path found: 2093ms
+Total number of iterations: 13986405
 
 
 *************** TESTE 2 - VERSÃO BASE - FICHEIRO (burma14.txt) ***************
-Best solution: [9, 10, 1, 2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11]
+Best solution: [13, 7, 12, 6, 5, 4, 3, 14, 2, 1, 10, 9, 11, 8]
 Distance of the best solution: 3323
 
-Total execution time: 5000ms
+Total execution time: 5010ms
 Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1556390
-Max time until best path found: 3199ms
-Total number of iterations: 15942203
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1353392
+Max time until best path found: 644ms
+Total number of iterations: 15104638
 
 
 *************** TESTE 3 - VERSÃO BASE - FICHEIRO (burma14.txt) ***************
-Best solution: [2, 14, 3, 4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1]
+Best solution: [1, 10, 9, 11, 8, 13, 7, 12, 6, 5, 4, 3, 14, 2]
 Distance of the best solution: 3323
 
-Total execution time: 5000ms
+Total execution time: 5003ms
 Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1584753
-Max time until best path found: 832ms
-Total number of iterations: 16005403
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1353456
+Max time until best path found: 2999ms
+Total number of iterations: 14207323
 
 
 *************** TESTE 4 - VERSÃO BASE - FICHEIRO (burma14.txt) ***************
-Best solution: [5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 14, 3, 4]
+Best solution: [8, 11, 9, 10, 1, 2, 14, 3, 4, 5, 6, 12, 7, 13]
 Distance of the best solution: 3323
 
-Total execution time: 5000ms
+Total execution time: 5036ms
 Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1601047
-Max time until best path found: 1457ms
-Total number of iterations: 16204391
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1503356
+Max time until best path found: 1493ms
+Total number of iterations: 15100746
 
 
 *************** TESTE 5 - VERSÃO BASE - FICHEIRO (burma14.txt) ***************
 Best solution: [7, 12, 6, 5, 4, 3, 14, 2, 1, 10, 9, 11, 8, 13]
 Distance of the best solution: 3323
 
-Total execution time: 5000ms
+Total execution time: 5001ms
 Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1620753
-Max time until best path found: 1306ms
-Total number of iterations: 15896540
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1552656
+Max time until best path found: 3653ms
+Total number of iterations: 15359152
 
 
 *************** TESTE 6 - VERSÃO BASE - FICHEIRO (burma14.txt) ***************
-Best solution: [12, 6, 5, 4, 3, 14, 2, 1, 10, 9, 11, 8, 13, 7]
+Best solution: [4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 14, 3]
 Distance of the best solution: 3323
 
-Total execution time: 5005ms
+Total execution time: 5003ms
 Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1572298
-Max time until best path found: 2242ms
-Total number of iterations: 16143461
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1522275
+Max time until best path found: 3278ms
+Total number of iterations: 14647165
 
 
 *************** TESTE 7 - VERSÃO BASE - FICHEIRO (burma14.txt) ***************
-Best solution: [1, 10, 9, 11, 8, 13, 7, 12, 6, 5, 4, 3, 14, 2]
+Best solution: [4, 5, 6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 14, 3]
 Distance of the best solution: 3323
 
-Total execution time: 5000ms
+Total execution time: 5045ms
 Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1629623
-Max time until best path found: 4602ms
-Total number of iterations: 16100928
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1513513
+Max time until best path found: 2700ms
+Total number of iterations: 15011158
 
 
 *************** TESTE 8 - VERSÃO BASE - FICHEIRO (burma14.txt) ***************
-Best solution: [12, 7, 13, 8, 11, 9, 10, 1, 2, 14, 3, 4, 5, 6]
-Distance of the best solution: 3323
-
-Total execution time: 5001ms
-Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1578236
-Max time until best path found: 1532ms
-Total number of iterations: 16150208
-
-
-*************** TESTE 9 - VERSÃO BASE - FICHEIRO (burma14.txt) ***************
 Best solution: [11, 9, 10, 1, 2, 14, 3, 4, 5, 6, 12, 7, 13, 8]
 Distance of the best solution: 3323
 
-Total execution time: 5000ms
+Total execution time: 5002ms
 Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1566816
-Max time until best path found: 3970ms
-Total number of iterations: 16039702
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1408103
+Max time until best path found: 4260ms
+Total number of iterations: 13215620
+
+
+*************** TESTE 9 - VERSÃO BASE - FICHEIRO (burma14.txt) ***************
+Best solution: [6, 12, 7, 13, 8, 11, 9, 10, 1, 2, 14, 3, 4, 5]
+Distance of the best solution: 3323
+
+Total execution time: 5118ms
+Threads used: 10
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 664943
+Max time until best path found: 1428ms
+Total number of iterations: 13052218
 
 
 *************** TESTE 10 - VERSÃO BASE - FICHEIRO (burma14.txt) ***************
-Best solution: [2, 1, 10, 9, 11, 8, 13, 7, 12, 6, 5, 4, 3, 14]
+Best solution: [13, 7, 12, 6, 5, 4, 3, 14, 2, 1, 10, 9, 11, 8]
 Distance of the best solution: 3323
 
-Total execution time: 5000ms
+Total execution time: 5065ms
 Threads used: 10
-Population size: 50
-Mutation probability: 1.0%
-Iterations until best path found: 1595149
-Max time until best path found: 2213ms
-Total number of iterations: 16043026
+Population size: 100
+Mutation probability: 10.0%
+Iterations until best path found: 1597053
+Max time until best path found: 4423ms
+Total number of iterations: 15605348
 
 
-Average execution time over 10 runs: 5000.8ms
-Average total iterations over 10 runs: 16026445,30
+Average execution time over 10 runs: 5028.6ms
+Average total iterations over 10 runs: 14528977,30
+Total best path found: 10/10
