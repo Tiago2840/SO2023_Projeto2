@@ -1,0 +1,133 @@
+*************** TESTE 1 - VERSÃO ORIGINAL - FICHEIRO (dantzig42.txt) ***************
+Best solution: [3, 4, 5, 6, 7, 8, 9, 10, 25, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 24, 27, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 1, 2]
+Distance of the best solution: 712
+
+Total execution time: 180002ms
+Threads used: 25
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 129404
+Max time until best path found: 640ms
+Total number of iterations: 3232162
+
+
+*************** TESTE 2 - VERSÃO ORIGINAL - FICHEIRO (dantzig42.txt) ***************
+Best solution: [3, 4, 5, 6, 7, 8, 9, 10, 25, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 24, 27, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 1, 2]
+Distance of the best solution: 712
+
+Total execution time: 180000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 133634
+Max time until best path found: 640ms
+Total number of iterations: 6569621
+
+
+*************** TESTE 3 - VERSÃO ORIGINAL - FICHEIRO (dantzig42.txt) ***************
+Best solution: [3, 4, 5, 6, 7, 8, 9, 10, 25, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 24, 27, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 1, 2]
+Distance of the best solution: 712
+
+Total execution time: 180000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 130365
+Max time until best path found: 640ms
+Total number of iterations: 9825616
+
+
+*************** TESTE 4 - VERSÃO ORIGINAL - FICHEIRO (dantzig42.txt) ***************
+Best solution: [3, 4, 5, 6, 7, 8, 9, 10, 25, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 24, 27, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 1, 2]
+Distance of the best solution: 712
+
+Total execution time: 180000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 126645
+Max time until best path found: 640ms
+Total number of iterations: 12988565
+
+
+*************** TESTE 5 - VERSÃO ORIGINAL - FICHEIRO (dantzig42.txt) ***************
+Best solution: [3, 4, 5, 6, 7, 8, 9, 10, 25, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 24, 27, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 1, 2]
+Distance of the best solution: 712
+
+Total execution time: 180000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 136573
+Max time until best path found: 640ms
+Total number of iterations: 16399609
+
+
+*************** TESTE 6 - VERSÃO ORIGINAL - FICHEIRO (dantzig42.txt) ***************
+Best solution: [3, 4, 5, 6, 7, 8, 9, 10, 25, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 24, 27, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 1, 2]
+Distance of the best solution: 712
+
+Total execution time: 180000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 133916
+Max time until best path found: 640ms
+Total number of iterations: 19744234
+
+
+*************** TESTE 7 - VERSÃO ORIGINAL - FICHEIRO (dantzig42.txt) ***************
+Best solution: [3, 4, 5, 6, 7, 8, 9, 10, 25, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 24, 27, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 1, 2]
+Distance of the best solution: 712
+
+Total execution time: 180000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 136951
+Max time until best path found: 640ms
+Total number of iterations: 23164501
+
+
+*************** TESTE 8 - VERSÃO ORIGINAL - FICHEIRO (dantzig42.txt) ***************
+Best solution: [3, 4, 5, 6, 7, 8, 9, 10, 25, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 24, 27, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 1, 2]
+Distance of the best solution: 712
+
+Total execution time: 180000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 137456
+Max time until best path found: 640ms
+Total number of iterations: 26597273
+
+
+*************** TESTE 9 - VERSÃO ORIGINAL - FICHEIRO (dantzig42.txt) ***************
+Best solution: [3, 4, 5, 6, 7, 8, 9, 10, 25, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 24, 27, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 1, 2]
+Distance of the best solution: 712
+
+Total execution time: 180000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 133077
+Max time until best path found: 640ms
+Total number of iterations: 29920823
+
+
+*************** TESTE 10 - VERSÃO ORIGINAL - FICHEIRO (dantzig42.txt) ***************
+Best solution: [3, 4, 5, 6, 7, 8, 9, 10, 25, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 24, 27, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 1, 2]
+Distance of the best solution: 712
+
+Total execution time: 180000ms
+Threads used: 25
+Population size: 100
+Mutation probability: 20.0%
+Iterations until best path found: 130000
+Max time until best path found: 640ms
+Total number of iterations: 33167635
+
+
+Average execution time over 10 runs: 180000.2ms
+Average total iterations over 10 runs: 18161003,90
+Total best path found: 0/10

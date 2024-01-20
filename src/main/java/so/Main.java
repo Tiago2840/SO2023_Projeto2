@@ -1,8 +1,6 @@
 package so;
 
 import java.io.*;
-import java.math.BigDecimal;
-import java.math.MathContext;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -30,15 +28,15 @@ public class Main {
 
 
         // *** Algorithm *** \\
-        int numThreads = 10;
-        int maxTimeLimit = 2;
-        int populationSize = 50;
-        double mutationProbability = 0.01;
+        int numThreads = 25;
+        int maxTimeLimit = 180;
+        int populationSize = 100;
+        double mutationProbability = 0.2;
         double updatePercentage = 0.05;
 
         // *** Algorithms Tests *** \\
-        String fileName = "uk12.txt";      // Test filename
-        String testToExecute = "a";         // AdvancedVersion = a  BaseVersion = b OriginalVersion = o GenerateProblem = g
+        String fileName = "dantzig42.txt";      // Test filename
+        String testToExecute = "b";         // AdvancedVersion = a  BaseVersion = b originalVersion = o GenerateProblem = g
         boolean customFile = false;         // If file is contained in customProblems folder change to true else false
         int totalTestNumber = 10;           // Number of times the test will be executed
         int testNumber;
@@ -54,7 +52,6 @@ public class Main {
         boolean exportResultsToFile = true;     // True -> Export to file | False -> Print in console
         String outputFileName = "src/main/resources/executionResults/" + fileName.replace(".txt", "")
                 + (testToExecute.equalsIgnoreCase("b") ? "_baseVersion" : "_advancedVersion") + "_results.txt";
-
 
         // Lists to store results for each run
         List<Long> executionTimes = new ArrayList<>();
@@ -127,6 +124,30 @@ public class Main {
                     System.out.println("Average total iterations over " + totalTestNumber + " runs: "
                             + String.format("%.2f", averageTotalIterationsA));
                     break;
+
+                case ("o"):
+                    OriginalVersion originalVersion = new OriginalVersion(populationSize, maxTimeLimit, mutationProbability, numThreads, distanceMatrix);
+                    testNumber = 1;
+                    while (testNumber <= totalTestNumber) {
+                        System.out.println("*************** TESTE " + testNumber + " - VERSÃO ORIGINAL - FICHEIRO (" + fileName + ") ***************");
+                        originalVersion.execute();
+
+                        // Store results for each run
+                        executionTimes.add(originalVersion.getTotalExecutionTime());
+                        totalIterationsList.add(originalVersion.getTotalIterations());
+
+                        testNumber++;
+                        System.out.println("\n");
+                    }
+
+                    // Calculate averages
+                    double averageExecutionTimeO = calculateAverageExecutionTime(executionTimes);
+                    double averageTotalIterationsO = calculateAverage(totalIterationsList);
+                    System.out.println("Average execution time over " + totalTestNumber + " runs: " + averageExecutionTimeO + "ms");
+                    System.out.println("Average total iterations over " + totalTestNumber + " runs: "
+                            + String.format("%.2f", averageTotalIterationsO));
+                    break;
+
 
                 case ("g"):
                     ProblemGenerator.generateProblem(generationSeed, citiesNumber);
