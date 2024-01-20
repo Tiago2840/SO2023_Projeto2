@@ -1,0 +1,11 @@
+ 1  6 tsp_tests\ex6.txt  4      1,021   23       1665     0,016    - 6 3 5 2 4 1 
+ 2  6 tsp_tests\ex6.txt  4      1,008   23          0     0,005    - 1 6 3 5 2 4 
+ 3  6 tsp_tests\ex6.txt  4      1,005   23          9     0,001    - 5 2 4 1 6 3 
+ 4  6 tsp_tests\ex6.txt  4      1,007   23       2956     0,010    - 4 1 6 3 5 2 
+ 5  6 tsp_tests\ex6.txt  4      1,003   23          0     0,000745 - 5 2 4 1 6 3 
+ 6  6 tsp_tests\ex6.txt  4      1,024   23          0     0,000553 - 2 4 1 6 3 5 
+ 7  6 tsp_tests\ex6.txt  4      1,014   23          0     0,000582 - 4 2 5 3 6 1 
+ 8  6 tsp_tests\ex6.txt  4      1,025   23          1     0,000486 - 1 6 3 5 2 4 
+ 9  6 tsp_tests\ex6.txt  4      1,025   23        142     0,000788 - 6 3 5 2 4 1 
+10  6 tsp_tests\ex6.txt  4      1,021   23          0     0,000624 - 6 3 5 2 4 1
+Optimal found 10 times   Average = 23,0   Std Dev = 0,0  

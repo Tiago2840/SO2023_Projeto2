@@ -1,198 +1,169 @@
 package so;
 
-import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // ********** Command Line Execution ********** \\
-        // Check if command-line arguments are provided
-//        if (args.length < 8) {
-//            System.out.println("Usage: java -jar tsp2.jar <filename> <numThreads> <maxTime> <populationSize> " +
-//                    "<mutationProbability> <updatePercentage> <testToExecute (a, b or g)> <customFile (true or false)>");
-//            return;
-//
-//            int numThreads = Integer.parseInt(args[1]);
-//            int maxTimeLimit = Integer.parseInt(args[2]);
-//            int populationSize = Integer.parseInt(args[3]);
-//            double mutationProbability = Double.parseDouble(args[4]);
-//            double updatePercentage = Double.parseDouble(args[5]);
-//            // *** Algorithms Tests *** \\
-//            String fileName = args[0];
-//            String testToExecute = args[6];
-//            boolean customFile = Boolean.parseBoolean(args[7]);
-//        }
-        // ******************************************** \\
+        // Algorithm Execution
+        String fileName = "";
+        boolean customFile = false;
+        int numThreads = 0, maxTimeLimit = 0, populationSize = 0, totalTestNumber = 0, testNumber;
+        double mutationProbability = 0, updatePercentage = 0;
+        // File Generation
+        int generationSeed = 0, citiesNumber = 0;
 
+        String testToExecute = args[0].toLowerCase();   // AdvancedVersion = a  BaseVersion = b originalVersion = o GenerateProblem = g
 
-        // *** Algorithm *** \\
-        int numThreads = 15;
-        int maxTimeLimit = 15;
-        int populationSize = 100;
-        double mutationProbability = 0.3;
-        double updatePercentage = 0.05;
-
-        // *** Algorithms Tests *** \\
-        String fileName = "ulysses22.txt";      // Test filename
-        String testToExecute = "o";         // AdvancedVersion = a  BaseVersion = b originalVersion = o GenerateProblem = g
-        boolean customFile = false;         // If file is contained in customProblems folder change to true else false
-        int totalTestNumber = 10;           // Number of times the test will be executed
-        int testNumber;
-        int[][] distanceMatrix = customFile
-                ? FileReader.readDistancesFromFile("src/main/resources/customProblems/" + fileName)
-                : FileReader.readDistancesFromFile("src/main/resources/originalProblems/" + fileName);
-
-        // *** File Generation *** \\
-        int generationSeed = 9;                 // Seed for random generation
-        int citiesNumber = 18;                  // Number of cities that will be generated in the file
-
-        // *** Results File Generation *** \\
-        boolean exportResultsToFile = true;     // True -> Export to file | False -> Print in console
-
-        String testTypeSuffix;
-        switch (testToExecute.toLowerCase()) {
-            case "b":
-                testTypeSuffix = "_baseVersion";
+        switch (testToExecute) {
+            case ("b"):
+            case ("o"):
+                validateArguments(args, 7, "b/o", "<filename> <customFile> " +
+                        "<numThreads> <maxTime> <populationSize> " +
+                        "<mutationProbability> <(Optional)totalTestNumber>");
+                fileName = args[1];                                                                     // Test filename
+                customFile = Boolean.parseBoolean(args[2]);                                             // If file is contained in customProblems folder change to true else false
+                numThreads = validatePositiveInteger(args[3], "Number of threads");
+                maxTimeLimit = validatePositiveInteger(args[4], "Maximum time limit");
+                populationSize = validatePositiveInteger(args[5], "Population size");
+                mutationProbability = validateProbability(args[6]);
+                totalTestNumber = args.length == 7 ?
+                        totalTestNumber = 1 :
+                        validatePositiveInteger(args[7], "Total test number");              // Number of times the test will be executed
                 break;
-            case "a":
-                testTypeSuffix = "_advancedVersion";
+
+            case ("a"):
+                validateArguments(args, 8, "a", "<filename> <customFile> " +
+                        "<numThreads> <maxTime> <populationSize> <mutationProbability> " +
+                        "<updatePercentage> <(Optional)totalTestNumber>");
+                fileName = args[1];                                                                    // Test filename
+                customFile = Boolean.parseBoolean(args[2]);                                            // If file is contained in customProblems folder change to true else false
+                numThreads = validatePositiveInteger(args[3], "Number of threads");
+                maxTimeLimit = validatePositiveInteger(args[4], "Maximum time limit");
+                populationSize = validatePositiveInteger(args[5], "Population size");
+                mutationProbability = validateProbability(args[6]);
+                updatePercentage = validateProbability(args[7]);
+                totalTestNumber = args.length == 8 ?
+                        totalTestNumber = 1 :
+                        validatePositiveInteger(args[8], "Total test number");              // Number of times the test will be executed
                 break;
-            case "o":
-                testTypeSuffix = "_originalVersion";
+
+            case ("g"):
+                validateArguments(args, 3, "g", "<generationSeed> <citiesNumber>");
+                generationSeed = validatePositiveInteger(args[1], "Generation seed");       // Seed for random generation
+                citiesNumber = validatePositiveInteger(args[2], "Number of cities");        // Number of cities that will be generated in the file
                 break;
+
             default:
-                testTypeSuffix = "_unknownVersion";
-                break;
+                System.out.println("\nInvalid arguments. Expected: ");
+                System.out.println(" • java -jar tsp2.jar <b/o> <filename> <customFile> <numThreads> <maxTime> <populationSize> " +
+                        "<mutationProbability> <(Optional)totalTestNumber>");
+                System.out.println("\tOR");
+                System.out.println(" • java -jar tsp2.jar <a> <filename> <customFile> <numThreads> <maxTime> <populationSize> " +
+                        "<mutationProbability> <updatePercentage> <(Optional)totalTestNumber>");
+                System.out.println("\tOR");
+                System.out.println(" • java -jar tsp2.jar <g> <generationSeed> <citiesNumber>");
+                System.out.println("\n* NOTES: " +
+                        "\n  <a/b/o/g> -> AdvancedVersion = a\tBaseVersion = b\tOriginalVersion = o\tGenerateProblem = g" +
+                        "\n  <customFile> -> True = Files generated with GenerateProblem\tFalse -> Default files" +
+                        "\n  <(Optional)totalTestNumber> -> Number of times the test will execute");
+                return;
         }
 
-        String outputFileName = "src/main/resources/executionResults/" + fileName.replace(".txt", "")
-                + testTypeSuffix + "_results.txt";
+        int[][] distanceMatrix = customFile
+                ? FileReader.readDistancesFromFile("resources/customProblems/" + fileName)
+                : FileReader.readDistancesFromFile("resources/originalProblems/" + fileName);
 
 
         // Lists to store results for each run
         List<Long> executionTimes = new ArrayList<>();
         List<Integer> totalIterationsList = new ArrayList<>();
 
+        System.out.println();
+        switch (testToExecute) {
+            case ("b"):
+                BaseVersion baseSolver = new BaseVersion(populationSize, maxTimeLimit, mutationProbability, numThreads, distanceMatrix);
+                testNumber = 1;
+                while (testNumber <= totalTestNumber) {
+                    System.out.println("*************** TESTE " + testNumber + " - VERSÃO BASE - FICHEIRO (" + fileName + ") ***************");
+                    baseSolver.execute();
 
-        // Check if the file already exists
-        File outputFile = new File(outputFileName);
-        if (outputFile.exists() && exportResultsToFile && !testToExecute.equalsIgnoreCase("g")) {
-            // If the file exists, prompt the user for confirmation
-            System.out.print("File already exists. Do you want to replace it? (y/n): ");
-            Scanner scanner = new Scanner(System.in);
-            String userInput = scanner.nextLine().trim().toLowerCase();
+                    // Store results for each run
+                    executionTimes.add(baseSolver.getTotalExecutionTime());
+                    totalIterationsList.add(baseSolver.getTotalIterations());
 
-            if (!userInput.equalsIgnoreCase("y")) {
-                System.out.println("Operation canceled. Results will not be exported.");
-                return;
-            }
+                    testNumber++;
+                    System.out.println("\n");
+                }
+
+                // Calculate averages
+                double averageExecutionTimeB = calculateAverageExecutionTime(executionTimes);
+                double averageTotalIterationsB = calculateAverage(totalIterationsList);
+                System.out.println("Average execution time over " + totalTestNumber + " runs: " + averageExecutionTimeB + "ms");
+                System.out.println("Average total iterations over " + totalTestNumber + " runs: "
+                        + String.format("%.2f", averageTotalIterationsB));
+                break;
+
+            case ("a"):
+                AdvancedVersion advancedSolver = new AdvancedVersion(populationSize, maxTimeLimit, mutationProbability,
+                        numThreads, distanceMatrix, updatePercentage);
+                testNumber = 1;
+                while (testNumber <= totalTestNumber) {
+                    System.out.println("*************** TESTE " + testNumber + " - VERSÃO AVANÇADA - FICHEIRO (" + fileName + ") ***************");
+                    advancedSolver.execute();
+
+                    // Store results for each run
+                    executionTimes.add(advancedSolver.getTotalExecutionTime());
+                    totalIterationsList.add(advancedSolver.getTotalIterations());
+
+                    testNumber++;
+                    System.out.println("\n");
+                }
+
+                // Calculate averages
+                double averageExecutionTimeA = calculateAverageExecutionTime(executionTimes);
+                double averageTotalIterationsA = calculateAverage(totalIterationsList);
+                System.out.println("Average execution time over " + totalTestNumber + " runs: " + averageExecutionTimeA + "ms");
+                System.out.println("Average total iterations over " + totalTestNumber + " runs: "
+                        + String.format("%.2f", averageTotalIterationsA));
+                break;
+
+            case ("o"):
+                OriginalVersion originalVersion = new OriginalVersion(populationSize, maxTimeLimit, mutationProbability, numThreads, distanceMatrix);
+                testNumber = 1;
+                while (testNumber <= totalTestNumber) {
+                    System.out.println("*************** TESTE " + testNumber + " - VERSÃO ORIGINAL - FICHEIRO (" + fileName + ") ***************");
+                    originalVersion.execute();
+
+                    // Store results for each run
+                    executionTimes.add(originalVersion.getTotalExecutionTime());
+                    totalIterationsList.add(originalVersion.getTotalIterations());
+
+                    testNumber++;
+                    System.out.println("\n");
+                }
+
+                // Calculate averages
+                double averageExecutionTimeO = calculateAverageExecutionTime(executionTimes);
+                double averageTotalIterationsO = calculateAverage(totalIterationsList);
+                System.out.println("Average execution time over " + totalTestNumber + " runs: " + averageExecutionTimeO + "ms");
+                System.out.println("Average total iterations over " + totalTestNumber + " runs: "
+                        + String.format("%.2f", averageTotalIterationsO));
+                break;
+
+
+            case ("g"):
+                ProblemGenerator.generateProblem(generationSeed, citiesNumber);
+                break;
+
+            default:
+                break;
         }
-
-        try (PrintStream filePrintStream = new PrintStream(new FileOutputStream(outputFileName))) {
-            // Redirect System.out to the filePrintStream if exportResultsToFile is true
-            if (exportResultsToFile && !testToExecute.equalsIgnoreCase("g")) {
-                System.setOut(filePrintStream);
-            }
-
-            switch (testToExecute.toLowerCase()) {
-                case ("b"):
-                    BaseVersion baseSolver = new BaseVersion(populationSize, maxTimeLimit, mutationProbability, numThreads, distanceMatrix);
-                    testNumber = 1;
-                    while (testNumber <= totalTestNumber) {
-                        System.out.println("*************** TESTE " + testNumber + " - VERSÃO BASE - FICHEIRO (" + fileName + ") ***************");
-                        baseSolver.execute();
-
-                        // Store results for each run
-                        executionTimes.add(baseSolver.getTotalExecutionTime());
-                        totalIterationsList.add(baseSolver.getTotalIterations());
-
-                        testNumber++;
-                        System.out.println("\n");
-                    }
-
-                    // Calculate averages
-                    double averageExecutionTimeB = calculateAverageExecutionTime(executionTimes);
-                    double averageTotalIterationsB = calculateAverage(totalIterationsList);
-                    System.out.println("Average execution time over " + totalTestNumber + " runs: " + averageExecutionTimeB + "ms");
-                    System.out.println("Average total iterations over " + totalTestNumber + " runs: "
-                            + String.format("%.2f", averageTotalIterationsB));
-                    break;
-
-                case ("a"):
-                    AdvancedVersion advancedSolver = new AdvancedVersion(populationSize, maxTimeLimit, mutationProbability, numThreads, distanceMatrix, updatePercentage);
-                    testNumber = 1;
-                    while (testNumber <= totalTestNumber) {
-                        System.out.println("*************** TESTE " + testNumber + " - VERSÃO AVANÇADA - FICHEIRO (" + fileName + ") ***************");
-                        advancedSolver.execute();
-
-                        // Store results for each run
-                        executionTimes.add(advancedSolver.getTotalExecutionTime());
-                        totalIterationsList.add(advancedSolver.getTotalIterations());
-
-                        testNumber++;
-                        System.out.println("\n");
-                    }
-
-                    // Calculate averages
-                    double averageExecutionTimeA = calculateAverageExecutionTime(executionTimes);
-                    double averageTotalIterationsA = calculateAverage(totalIterationsList);
-                    System.out.println("Average execution time over " + totalTestNumber + " runs: " + averageExecutionTimeA + "ms");
-                    System.out.println("Average total iterations over " + totalTestNumber + " runs: "
-                            + String.format("%.2f", averageTotalIterationsA));
-                    break;
-
-                case ("o"):
-                    OriginalVersion originalVersion = new OriginalVersion(populationSize, maxTimeLimit, mutationProbability, numThreads, distanceMatrix);
-                    testNumber = 1;
-                    while (testNumber <= totalTestNumber) {
-                        System.out.println("*************** TESTE " + testNumber + " - VERSÃO ORIGINAL - FICHEIRO (" + fileName + ") ***************");
-                        originalVersion.execute();
-
-                        // Store results for each run
-                        executionTimes.add(originalVersion.getTotalExecutionTime());
-                        totalIterationsList.add(originalVersion.getTotalIterations());
-
-                        testNumber++;
-                        System.out.println("\n");
-                    }
-
-                    // Calculate averages
-                    double averageExecutionTimeO = calculateAverageExecutionTime(executionTimes);
-                    double averageTotalIterationsO = calculateAverage(totalIterationsList);
-                    System.out.println("Average execution time over " + totalTestNumber + " runs: " + averageExecutionTimeO + "ms");
-                    System.out.println("Average total iterations over " + totalTestNumber + " runs: "
-                            + String.format("%.2f", averageTotalIterationsO));
-                    break;
-
-
-                case ("g"):
-                    ProblemGenerator.generateProblem(generationSeed, citiesNumber);
-                    break;
-
-                default:
-                    // Reset System.out to its original value
-                    System.setOut(new PrintStream(new FileOutputStream(FileDescriptor.out)));
-                    System.out.println("The testToExecute var parameter should be 'a -> AdvancedVersion', 'b -> BaseVersion', 'g -> GenerateCustomFile'");
-            }
-
-            // Flush and close the filePrintStream
-            filePrintStream.flush();
-            filePrintStream.close();
-
-            // Reset System.out to its original value
-            System.setOut(new PrintStream(new FileOutputStream(FileDescriptor.out)));
-
-            System.out.println("Results exported to " + outputFileName);
-
-        } catch (FileNotFoundException e) {
-            System.err.println("Error exporting the results to " + outputFileName);
-            throw new RuntimeException(e);
-        }
+        System.out.println();
     }
 
-    // Generic method to calculate the average of a list of numbers
+
+    // *** Methods to calculate the averages *** \\
     private static <T extends Number> double calculateAverage(List<T> numbers) {
         double sum = 0;
         for (T number : numbers) {
@@ -207,5 +178,44 @@ public class Main {
             sum += time;
         }
         return (double) sum / executionTimes.size();
+    }
+
+
+    // *** Validation methods *** \\
+    private static void validateArguments(String[] args, int expectedLength, String testType, String argsFormat) {
+        if (args.length != expectedLength) {
+            System.out.println("Invalid number of arguments for " + testType + ". Expected " + expectedLength + " arguments in the format: " + argsFormat);
+            System.exit(1);
+        }
+    }
+
+    private static int validatePositiveInteger(String arg, String paramName) {
+        try {
+            int value = Integer.parseInt(arg);
+            if (value <= 0) {
+                System.out.println(paramName + " must be a positive integer.");
+                System.exit(1);
+            }
+            return value;
+        } catch (NumberFormatException e) {
+            System.out.println(paramName + " must be a valid integer.");
+            System.exit(1);
+            return 0;  // Unreachable, but required for compilation
+        }
+    }
+
+    private static double validateProbability(String arg) {
+        try {
+            double value = Double.parseDouble(arg);
+            if (value < 0 || value > 1) {
+                System.out.println("Probability values must be between 0 and 1.");
+                System.exit(1);
+            }
+            return value;
+        } catch (NumberFormatException e) {
+            System.out.println("Probability must be a valid decimal number.");
+            System.exit(1);
+            return 0.0;  // Unreachable, but required for compilation
+        }
     }
 }

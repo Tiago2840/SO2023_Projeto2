@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SO2023_Projeto2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SO2023_Projeto2_jar</output-path>
+    <root id="archive" name="tsp2.jar">
+      <element id="module-output" name="SO2023_Projeto2" />
+    </root>
+  </artifact>
+</component>

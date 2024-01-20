@@ -1,0 +1,11 @@
+ 1  7 tsp_tests\ex7.txt  4      1,024  105        702   0,007    - 1 2 4 6 3 7 5 
+ 2  7 tsp_tests\ex7.txt  4      1,005  105       4615   0,026    - 1 2 4 6 3 7 5 
+ 3  7 tsp_tests\ex7.txt  4      1,025  105       3115   0,006    - 5 1 2 4 6 3 7 
+ 4  7 tsp_tests\ex7.txt  4      1,025  105       5322   0,015    - 7 5 1 2 4 6 3 
+ 5  7 tsp_tests\ex7.txt  4      1,014  105       1348   0,006    - 7 5 1 2 4 6 3 
+ 6  7 tsp_tests\ex7.txt  4      1,015  105       2727   0,011    - 3 6 4 2 1 5 7 
+ 7  7 tsp_tests\ex7.txt  4      1,027  105        350   0,002    - 7 3 6 4 2 1 5 
+ 8  7 tsp_tests\ex7.txt  4      1,016  105        223   0,001    - 4 2 1 5 7 3 6 
+ 9  7 tsp_tests\ex7.txt  4      1,015  105        970   0,002    - 2 4 6 3 7 5 1 
+10  7 tsp_tests\ex7.txt  4      1,022  105        511   0,002    - 7 3 6 4 2 1 5 
+Optimal found 10 times   Average = 105,0   Std Dev = 0,0  
